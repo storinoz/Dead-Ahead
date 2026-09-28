@@ -13,6 +13,7 @@ Após a publicação pelo GitHub Pages, o endereço será:
 - 52 personagens em ordem alfabética.
 - Três árvores recomendadas por personagem.
 - Atributos principais e secundários para Cup, Knife, Watch e Book.
+- Sprites próprios de cada item, atualizados junto com a árvore selecionada.
 - Observação específica para a árvore selecionada.
 - Busca rápida, navegação entre personagens e links compartilháveis.
 - Planilha Excel original disponível para download.
@@ -23,7 +24,11 @@ Após a publicação pelo GitHub Pages, o endereço será:
 - `styles.css`: aparência e layout responsivo.
 - `app.js`: busca, seleção de builds e navegação.
 - `data/personagens.json`: dados extraídos da planilha.
+- `data/item-assets.json`: nomes, imagens e fontes dos itens dos 16 conjuntos.
 - `assets/personagens`: ilustrações dos personagens.
+- `assets/items`: 64 sprites de itens organizados por conjunto e tipo.
+- `assets/branding`: ícone e arte de cabeçalho do jogo.
+- `scripts/sync-item-assets.mjs`: sincroniza os sprites a partir da wiki do jogo.
 - `downloads`: versão completa da planilha Excel.
 
 ## Atualização local
@@ -46,4 +51,4 @@ O GitHub Pages atualizará o site após o envio para a branch `main`.
 
 ## Nota
 
-Projeto de fãs, sem vínculo oficial com os criadores do jogo. As ilustrações são interpretações estilizadas geradas por IA e não são sprites oficiais.
+Projeto de fãs, sem vínculo oficial com os criadores do jogo. As ilustrações dos personagens são interpretações estilizadas; os itens usam sprites de referência de seus conjuntos.

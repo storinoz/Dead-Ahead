@@ -1,5 +1,6 @@
 const state = {
   data: null,
+  itemAssets: null,
   characterIndex: 0,
   buildIndex: 0,
 };
@@ -146,8 +147,13 @@ function renderBuild() {
 
   Object.entries(build.items).forEach(([itemName, item]) => {
     const card = document.querySelector(`[data-item="${itemName}"]`);
+    const itemAsset = state.itemAssets?.[build.set]?.items?.[itemName];
     card.querySelector('[data-field="primary"]').textContent = item.primary;
     card.querySelector('[data-field="secondary"]').textContent = item.secondary;
+    card.querySelector('[data-field="itemName"]').textContent = itemAsset?.name ?? build.set;
+    const image = card.querySelector("[data-item-image]");
+    image.src = itemAsset?.image ?? "";
+    image.alt = itemAsset ? `${itemAsset.name}, item ${itemName} do conjunto ${build.set}` : "";
   });
 
   updateUrl();
@@ -194,9 +200,17 @@ function connectEvents() {
 
 async function init() {
   try {
-    const response = await fetch("data/personagens.json");
-    if (!response.ok) throw new Error(`Falha HTTP ${response.status}`);
-    state.data = await response.json();
+    const [dataResponse, itemAssetsResponse] = await Promise.all([
+      fetch("data/personagens.json"),
+      fetch("data/item-assets.json"),
+    ]);
+    if (!dataResponse.ok || !itemAssetsResponse.ok) {
+      throw new Error(`Falha HTTP ${dataResponse.status}/${itemAssetsResponse.status}`);
+    }
+    [state.data, state.itemAssets] = await Promise.all([
+      dataResponse.json(),
+      itemAssetsResponse.json(),
+    ]);
 
     elements.characterCount.textContent = `${state.data.characterCount} personagens`;
     buildCharacterControls();

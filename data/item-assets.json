@@ -1,0 +1,402 @@
+{
+  "Big Boy": {
+    "source": "https://deadahead.wiki.gg/wiki/Big_Boy_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Choco-Nut Jar",
+        "image": "assets/items/big-boy-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Big_Boy_Cup.png?f73b64"
+      },
+      "knife": {
+        "name": "Big Knife",
+        "image": "assets/items/big-boy-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_bigboy_knife.png?4d3bc0"
+      },
+      "watch": {
+        "name": "Bracelet Watch",
+        "image": "assets/items/big-boy-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_bigboy_watch.png?ab186c"
+      },
+      "book": {
+        "name": "Mass-gain Guide",
+        "image": "assets/items/big-boy-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_bigboy_book.png?55b1d6"
+      }
+    }
+  },
+  "Boss": {
+    "source": "https://deadahead.wiki.gg/wiki/Boss_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Thermal Cup",
+        "image": "assets/items/boss-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Boss_Cup.png?401e6c"
+      },
+      "knife": {
+        "name": "Trench Knife",
+        "image": "assets/items/boss-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_boss_knife.png?7c8904"
+      },
+      "watch": {
+        "name": "Smart Watch",
+        "image": "assets/items/boss-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_boss_watch.png?ad1b84"
+      },
+      "book": {
+        "name": "Notebook",
+        "image": "assets/items/boss-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_boss_book.png?4f5e26"
+      }
+    }
+  },
+  "Builder": {
+    "source": "https://deadahead.wiki.gg/wiki/Builder_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Lunch Flask",
+        "image": "assets/items/builder-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_Builder_Cup.png?a6fe27"
+      },
+      "knife": {
+        "name": "Screwdriver",
+        "image": "assets/items/builder-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_builder_knife.png?ce071b"
+      },
+      "watch": {
+        "name": "Shock Watch",
+        "image": "assets/items/builder-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_builder_watch.png?19aed7"
+      },
+      "book": {
+        "name": "Safety Guide",
+        "image": "assets/items/builder-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_builder_book.png?460094"
+      }
+    }
+  },
+  "Chef": {
+    "source": "https://deadahead.wiki.gg/wiki/Chef_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Measuring Cup",
+        "image": "assets/items/chef-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_Chef_Cup.png?53a9fd"
+      },
+      "knife": {
+        "name": "Chef's Knife",
+        "image": "assets/items/chef-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_chef_knife.png?de78c2"
+      },
+      "watch": {
+        "name": "Kitchen Timer",
+        "image": "assets/items/chef-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_chef_watch.png?aff04c"
+      },
+      "book": {
+        "name": "Recipe Book",
+        "image": "assets/items/chef-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_chef_book.png?a4790c"
+      }
+    }
+  },
+  "Firefighter": {
+    "source": "https://deadahead.wiki.gg/wiki/Firefighter_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Firehouse Cup",
+        "image": "assets/items/firefighter-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Firefighter_Cup.png?da5b94"
+      },
+      "knife": {
+        "name": "Rescue Blade",
+        "image": "assets/items/firefighter-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_firefighter_knife.png?11fe7c"
+      },
+      "watch": {
+        "name": "Fireproof Watch",
+        "image": "assets/items/firefighter-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_firefighter_watch.png?ca3007"
+      },
+      "book": {
+        "name": "Flame Manual",
+        "image": "assets/items/firefighter-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_firefighter_book.png?db54e7"
+      }
+    }
+  },
+  "Fitness": {
+    "source": "https://deadahead.wiki.gg/wiki/Fitness_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Water Bottle",
+        "image": "assets/items/fitness-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Fitness_Cup.png?875cc2"
+      },
+      "knife": {
+        "name": "Throwing Knife",
+        "image": "assets/items/fitness-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_fitness_knife.png?5996a4"
+      },
+      "watch": {
+        "name": "Fitness Watch",
+        "image": "assets/items/fitness-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_fitness_watch.png?ecc195"
+      },
+      "book": {
+        "name": "Yoga Power",
+        "image": "assets/items/fitness-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_fitness_book.png?d9e80b"
+      }
+    }
+  },
+  "Gambling": {
+    "source": "https://deadahead.wiki.gg/wiki/Gambling_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Diamond Rocks",
+        "image": "assets/items/gambling-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Gambling_Cup.png?7a43c4"
+      },
+      "knife": {
+        "name": "Straight Razor",
+        "image": "assets/items/gambling-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gambling_knife.png?a7a998"
+      },
+      "watch": {
+        "name": "Dealer's Watch",
+        "image": "assets/items/gambling-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gambling_watch.png?d002cc"
+      },
+      "book": {
+        "name": "Casino Rules",
+        "image": "assets/items/gambling-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gambling_book.png?32f7eb"
+      }
+    }
+  },
+  "Gentleman": {
+    "source": "https://deadahead.wiki.gg/wiki/Gentleman_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Old Fashioned",
+        "image": "assets/items/gentleman-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Gentleman_Cup.png?80dd07"
+      },
+      "knife": {
+        "name": "Butterfly Knife",
+        "image": "assets/items/gentleman-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gentleman_knife.png?8a8344"
+      },
+      "watch": {
+        "name": "Gold Watch",
+        "image": "assets/items/gentleman-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gentleman_watch.png?d70304"
+      },
+      "book": {
+        "name": "Personal Diary",
+        "image": "assets/items/gentleman-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_gentleman_book.png?581cae"
+      }
+    }
+  },
+  "Hunter": {
+    "source": "https://deadahead.wiki.gg/wiki/Hunter_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Leather Flask",
+        "image": "assets/items/hunter-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Hunter_Cup.png?c24bb2"
+      },
+      "knife": {
+        "name": "Buck Knife",
+        "image": "assets/items/hunter-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_hunter_knife.png?373ab1"
+      },
+      "watch": {
+        "name": "Leather Watch",
+        "image": "assets/items/hunter-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_hunter_watch.png?51c250"
+      },
+      "book": {
+        "name": "Gundog Book",
+        "image": "assets/items/hunter-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_hunter_book.png?87b9dc"
+      }
+    }
+  },
+  "Ice Breaker": {
+    "source": "https://deadahead.wiki.gg/wiki/Ice_Breaker_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Thermal Flask",
+        "image": "assets/items/ice-breaker-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Ice_Breaker_Cup.png?885023"
+      },
+      "knife": {
+        "name": "Ice Pick",
+        "image": "assets/items/ice-breaker-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_icebreaker_knife.png?e611dd"
+      },
+      "watch": {
+        "name": "Altimeter Watch",
+        "image": "assets/items/ice-breaker-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_icebreaker_watch.png?29af8f"
+      },
+      "book": {
+        "name": "Climber's Book",
+        "image": "assets/items/ice-breaker-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_icebreaker_book.png?61ca35"
+      }
+    }
+  },
+  "Lucky Guy": {
+    "source": "https://deadahead.wiki.gg/wiki/Lucky_Guy_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Wealth Jar",
+        "image": "assets/items/lucky-guy-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Lucky_Guy_Cup.png?338720"
+      },
+      "knife": {
+        "name": "Fortuity Knife",
+        "image": "assets/items/lucky-guy-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_luckyguy_knife.png?bfe0ab"
+      },
+      "watch": {
+        "name": "Destiny Watch",
+        "image": "assets/items/lucky-guy-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_luckyguy_watch.png?173734"
+      },
+      "book": {
+        "name": "Tarot Book",
+        "image": "assets/items/lucky-guy-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_luckyguy_book.png?608069"
+      }
+    }
+  },
+  "Military": {
+    "source": "https://deadahead.wiki.gg/wiki/Military_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Stainless Mug",
+        "image": "assets/items/military-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Military_Cup.png?ac2211"
+      },
+      "knife": {
+        "name": "Bayonet Knife",
+        "image": "assets/items/military-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_military_knife.png?573821"
+      },
+      "watch": {
+        "name": "Tactical Watch",
+        "image": "assets/items/military-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_military_watch.png?dbfc8b"
+      },
+      "book": {
+        "name": "Challenge Book",
+        "image": "assets/items/military-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_military_book.png?87daed"
+      }
+    }
+  },
+  "Pincushion": {
+    "source": "https://deadahead.wiki.gg/wiki/Pincushion_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Salt Shaker",
+        "image": "assets/items/pincushion-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Pincushion_Cup.png?147b39"
+      },
+      "knife": {
+        "name": "Leather Awl",
+        "image": "assets/items/pincushion-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_pincushion_knife.png?9948e3"
+      },
+      "watch": {
+        "name": "Chronograph Watch",
+        "image": "assets/items/pincushion-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_pincushion_watch.png?e3db93"
+      },
+      "book": {
+        "name": "Meditation Book",
+        "image": "assets/items/pincushion-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_pincushion_book.png?e179fa"
+      }
+    }
+  },
+  "Surgery": {
+    "source": "https://deadahead.wiki.gg/wiki/Surgery_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Sterile Cup",
+        "image": "assets/items/surgery-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_Surgery_Cup.png?5934d3"
+      },
+      "knife": {
+        "name": "Scalpel",
+        "image": "assets/items/surgery-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_surgery_knife.png?9f270c"
+      },
+      "watch": {
+        "name": "Lab Timer",
+        "image": "assets/items/surgery-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_surgery_watch.png?f51a89"
+      },
+      "book": {
+        "name": "Medical Book",
+        "image": "assets/items/surgery-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_surgery_book.png?acdc00"
+      }
+    }
+  },
+  "SwissMade": {
+    "source": "https://deadahead.wiki.gg/wiki/SwissMade_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "Swiss Cup",
+        "image": "assets/items/swissmade-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_SwissMade_Cup.png?2d9627"
+      },
+      "knife": {
+        "name": "Multitool",
+        "image": "assets/items/swissmade-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_swissmade_knife.png?7df85c"
+      },
+      "watch": {
+        "name": "Outdoor Watch",
+        "image": "assets/items/swissmade-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_swissmade_watch.png?362bdc"
+      },
+      "book": {
+        "name": "Hiking Manual",
+        "image": "assets/items/swissmade-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Legendary_swissmade_book.png?a71776"
+      }
+    }
+  },
+  "Tactical": {
+    "source": "https://deadahead.wiki.gg/wiki/Tactical_(Item_Set)",
+    "items": {
+      "cup": {
+        "name": "To go cup",
+        "image": "assets/items/tactical-cup.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_Tactical_Cup.png?41a76c"
+      },
+      "knife": {
+        "name": "Jackknife",
+        "image": "assets/items/tactical-knife.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_tactical_knife.png?1c0d87"
+      },
+      "watch": {
+        "name": "Chess Clock",
+        "image": "assets/items/tactical-watch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_tactical_watch.png?9230f1"
+      },
+      "book": {
+        "name": "Chess Guide",
+        "image": "assets/items/tactical-book.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Epic_tactical_book.png?6222f0"
+      }
+    }
+  }
+}

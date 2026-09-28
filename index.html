@@ -17,10 +17,10 @@
 
     <header class="topbar">
       <a class="brand" href="./" aria-label="Página inicial">
-        <span class="brand-mark" aria-hidden="true">DA</span>
+        <img class="brand-logo" src="assets/branding/dead-ahead-logo.webp" alt="Dead Ahead: Zombie Warfare" width="88" height="58">
         <span>
-          <strong>Dead Ahead</strong>
-          <small>Guia de builds</small>
+          <strong>Dead Ahead Guide</strong>
+          <small>By KoalaBoy</small>
         </span>
       </a>
       <div class="topbar-actions">
@@ -96,64 +96,69 @@
               <span class="build-counter" id="buildCounter"></span>
             </div>
 
-            <div class="item-grid" id="itemGrid">
-              <article class="item-card" data-item="cup">
-                <div class="item-card-heading">
-                  <span class="item-symbol">C</span>
-                  <div><small>Item</small><h3>Cup</h3></div>
-                </div>
-                <dl>
-                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
-                </dl>
-              </article>
-              <article class="item-card" data-item="knife">
-                <div class="item-card-heading">
-                  <span class="item-symbol">K</span>
-                  <div><small>Item</small><h3>Knife</h3></div>
-                </div>
-                <dl>
-                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
-                </dl>
-              </article>
-              <article class="item-card" data-item="watch">
-                <div class="item-card-heading">
-                  <span class="item-symbol">W</span>
-                  <div><small>Item</small><h3>Watch</h3></div>
-                </div>
-                <dl>
-                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
-                </dl>
-              </article>
-              <article class="item-card" data-item="book">
-                <div class="item-card-heading">
-                  <span class="item-symbol">B</span>
-                  <div><small>Item</small><h3>Book</h3></div>
-                </div>
-                <dl>
-                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
-                </dl>
-              </article>
+            <div class="build-layout">
+              <div class="item-grid" id="itemGrid">
+                <article class="item-card" data-item="cup">
+                  <div class="item-card-heading">
+                    <span class="item-image-frame"><img class="item-image" data-item-image src="" alt="" width="64" height="64"></span>
+                    <div><small data-field="itemName"></small><h3>Cup</h3></div>
+                  </div>
+                  <dl>
+                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                  </dl>
+                </article>
+                <article class="item-card" data-item="knife">
+                  <div class="item-card-heading">
+                    <span class="item-image-frame"><img class="item-image" data-item-image src="" alt="" width="64" height="64"></span>
+                    <div><small data-field="itemName"></small><h3>Knife</h3></div>
+                  </div>
+                  <dl>
+                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                  </dl>
+                </article>
+                <article class="item-card" data-item="watch">
+                  <div class="item-card-heading">
+                    <span class="item-image-frame"><img class="item-image" data-item-image src="" alt="" width="64" height="64"></span>
+                    <div><small data-field="itemName"></small><h3>Watch</h3></div>
+                  </div>
+                  <dl>
+                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                  </dl>
+                </article>
+                <article class="item-card" data-item="book">
+                  <div class="item-card-heading">
+                    <span class="item-image-frame"><img class="item-image" data-item-image src="" alt="" width="64" height="64"></span>
+                    <div><small data-field="itemName"></small><h3>Book</h3></div>
+                  </div>
+                  <dl>
+                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                  </dl>
+                </article>
+              </div>
+
+              <div class="guidance-column">
+                <aside class="observation" aria-labelledby="observationTitle">
+                  <span class="observation-icon" aria-hidden="true">!</span>
+                  <div>
+                    <h3 id="observationTitle">Como usar esta árvore</h3>
+                    <p id="observationText"></p>
+                  </div>
+                </aside>
+
+                <section class="methodology-panel" aria-labelledby="methodologyTitle">
+                  <p class="eyebrow">Base da recomendação</p>
+                  <h3 id="methodologyTitle">Critérios e escopo de recomendação</h3>
+                  <div class="methodology-content">
+                    <p id="criterionText"></p>
+                    <p id="scopeText"></p>
+                  </div>
+                </section>
+              </div>
             </div>
-
-            <aside class="observation" aria-labelledby="observationTitle">
-              <span class="observation-icon" aria-hidden="true">!</span>
-              <div>
-                <h3 id="observationTitle">Como usar esta árvore</h3>
-                <p id="observationText"></p>
-              </div>
-            </aside>
-
-            <details class="methodology">
-              <summary>Critério e escopo da recomendação</summary>
-              <div class="methodology-content">
-                <p id="criterionText"></p>
-                <p id="scopeText"></p>
-              </div>
-            </details>
           </section>
 
           <nav class="character-navigation" aria-label="Navegar entre personagens">
@@ -169,7 +174,7 @@
             <details>
               <summary>Fontes e notas do projeto</summary>
               <div class="sources-content">
-                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. As imagens são ilustrações estilizadas geradas por IA e não são sprites oficiais.</p>
+                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. Os personagens usam ilustrações estilizadas; os itens são sprites de referência de cada conjunto.</p>
                 <ul id="generalSources"></ul>
               </div>
             </details>
