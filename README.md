@@ -6,7 +6,7 @@ Versão web da planilha de recomendações de itens e builds para os 52 personag
 
 Após a publicação pelo GitHub Pages, o endereço será:
 
-`https://storinoz.github.io/Dead-Ahead/`
+`https://storinoz.github.io/dead-ahead/`
 
 ## Conteúdo
 
