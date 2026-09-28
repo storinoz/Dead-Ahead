@@ -11,10 +11,12 @@ Após a publicação pelo GitHub Pages, o endereço será:
 ## Conteúdo
 
 - 52 personagens em ordem alfabética.
+- 162 sprites exatos entre aparências principais e skins.
 - Três árvores recomendadas por personagem.
 - Atributos principais e secundários para Cup, Knife, Watch e Book.
 - Sprites próprios de cada item, atualizados junto com a árvore selecionada.
 - Observação específica para a árvore selecionada.
+- Seletor visual de skins que altera o nome e o sprite no painel principal.
 - Busca rápida, navegação entre personagens e links compartilháveis.
 - Planilha Excel original disponível para download.
 
@@ -25,10 +27,12 @@ Após a publicação pelo GitHub Pages, o endereço será:
 - `app.js`: busca, seleção de builds e navegação.
 - `data/personagens.json`: dados extraídos da planilha.
 - `data/item-assets.json`: nomes, imagens e fontes dos itens dos 16 conjuntos.
-- `assets/personagens`: ilustrações dos personagens.
+- `data/unit-assets.json`: catálogo das aparências principais e skins dos 52 personagens.
+- `assets/units`: sprites exatos dos personagens, organizados por unidade.
 - `assets/items`: 64 sprites de itens organizados por conjunto e tipo.
 - `assets/branding`: ícone e arte de cabeçalho do jogo.
 - `scripts/sync-item-assets.mjs`: sincroniza os sprites a partir da wiki do jogo.
+- `scripts/sync-unit-assets.mjs`: sincroniza personagens e skins a partir da wiki do jogo.
 - `downloads`: versão completa da planilha Excel.
 
 ## Atualização local
@@ -51,4 +55,4 @@ O GitHub Pages atualizará o site após o envio para a branch `main`.
 
 ## Nota
 
-Projeto de fãs, sem vínculo oficial com os criadores do jogo. As ilustrações dos personagens são interpretações estilizadas; os itens usam sprites de referência de seus conjuntos.
+Projeto de fãs, sem vínculo oficial com os criadores do jogo. Personagens, skins e itens utilizam sprites correspondentes do jogo, com as fontes registradas nos catálogos de dados.

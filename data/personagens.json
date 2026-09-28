@@ -7,7 +7,7 @@
   "characters": [
     {
       "name": "Agents",
-      "image": "assets/personagens/agents.png",
+      "image": "assets/units/agents/agents.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Agents",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -89,7 +89,7 @@
     },
     {
       "name": "Andrea",
-      "image": "assets/personagens/andrea.png",
+      "image": "assets/units/andrea/andrea.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Andrea",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -171,7 +171,7 @@
     },
     {
       "name": "Austin",
-      "image": "assets/personagens/austin.png",
+      "image": "assets/units/austin/austin.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Austin",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -253,7 +253,7 @@
     },
     {
       "name": "Berserker",
-      "image": "assets/personagens/berserker.png",
+      "image": "assets/units/berserker/berserker.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Berserker",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -335,7 +335,7 @@
     },
     {
       "name": "Builder",
-      "image": "assets/personagens/builder.png",
+      "image": "assets/units/builder/builder.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Builder",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -417,7 +417,7 @@
     },
     {
       "name": "Builder Abby",
-      "image": "assets/personagens/builder_abby.png",
+      "image": "assets/units/builder-abby/builder-abby.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Builder_Abby",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -499,7 +499,7 @@
     },
     {
       "name": "Cap",
-      "image": "assets/personagens/cap.png",
+      "image": "assets/units/cap/cap.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Cap",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -581,7 +581,7 @@
     },
     {
       "name": "Carlos",
-      "image": "assets/personagens/carlos.png",
+      "image": "assets/units/carlos/carlos.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Carlos",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -663,7 +663,7 @@
     },
     {
       "name": "Carol",
-      "image": "assets/personagens/carol.png",
+      "image": "assets/units/carol/carol.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Carol",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -745,7 +745,7 @@
     },
     {
       "name": "Cashier",
-      "image": "assets/personagens/cashier.png",
+      "image": "assets/units/cashier/cashier.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Cashier",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -827,7 +827,7 @@
     },
     {
       "name": "Chopper",
-      "image": "assets/personagens/chopper.png",
+      "image": "assets/units/chopper/chopper.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Chopper",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -909,7 +909,7 @@
     },
     {
       "name": "Demolitionist",
-      "image": "assets/personagens/demolitionist.png",
+      "image": "assets/units/demolitionist/demolitionist.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Demolitionist",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -991,7 +991,7 @@
     },
     {
       "name": "Dr. Kane",
-      "image": "assets/personagens/dr_kane.png",
+      "image": "assets/units/dr-kane/dr-kane.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Dr._Kane",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1073,7 +1073,7 @@
     },
     {
       "name": "Dr. Miller",
-      "image": "assets/personagens/dr_miller.png",
+      "image": "assets/units/dr-miller/dr-miller.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Dr._Miller",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1155,7 +1155,7 @@
     },
     {
       "name": "Dr. Norman",
-      "image": "assets/personagens/dr_norman.png",
+      "image": "assets/units/dr-norman/dr-norman.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Dr._Norman",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1237,7 +1237,7 @@
     },
     {
       "name": "Farmer",
-      "image": "assets/personagens/farmer.png",
+      "image": "assets/units/farmer/farmer.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Farmer",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "Firefighter",
-      "image": "assets/personagens/firefighter.png",
+      "image": "assets/units/firefighter/firefighter.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Firefighter",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1401,7 +1401,7 @@
     },
     {
       "name": "Flamethrower",
-      "image": "assets/personagens/flamethrower.png",
+      "image": "assets/units/flamethrower/flamethrower.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Flamethrower",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1483,7 +1483,7 @@
     },
     {
       "name": "Glenn",
-      "image": "assets/personagens/glenn.png",
+      "image": "assets/units/glenn/glenn.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Glenn",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1565,7 +1565,7 @@
     },
     {
       "name": "Grenadier",
-      "image": "assets/personagens/grenadier.png",
+      "image": "assets/units/grenadier/grenadier.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Grenadier",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1647,7 +1647,7 @@
     },
     {
       "name": "Guard",
-      "image": "assets/personagens/guard.png",
+      "image": "assets/units/guard/guard.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Guard",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1729,7 +1729,7 @@
     },
     {
       "name": "Gunslinger",
-      "image": "assets/personagens/gunslinger.png",
+      "image": "assets/units/gunslinger/gunslinger.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Gunslinger",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "Haruko",
-      "image": "assets/personagens/haruko.png",
+      "image": "assets/units/haruko/haruko.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Haruko",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1893,7 +1893,7 @@
     },
     {
       "name": "Hero",
-      "image": "assets/personagens/hero.png",
+      "image": "assets/units/hero/hero.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Hero",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -1975,7 +1975,7 @@
     },
     {
       "name": "Jailer",
-      "image": "assets/personagens/jailer.png",
+      "image": "assets/units/jailer/jailer.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Jailer",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2057,7 +2057,7 @@
     },
     {
       "name": "Juggernaut",
-      "image": "assets/personagens/juggernaut.png",
+      "image": "assets/units/juggernaut/juggernaut.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Juggernaut",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2139,7 +2139,7 @@
     },
     {
       "name": "Lester",
-      "image": "assets/personagens/lester.png",
+      "image": "assets/units/lester/lester.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Lester",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2221,7 +2221,7 @@
     },
     {
       "name": "Light Soldier",
-      "image": "assets/personagens/light_soldier.png",
+      "image": "assets/units/light-soldier/light-soldier.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Light_Soldier",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2303,7 +2303,7 @@
     },
     {
       "name": "Lionheart",
-      "image": "assets/personagens/lionheart.png",
+      "image": "assets/units/lionheart/lionheart.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Lionheart",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2385,7 +2385,7 @@
     },
     {
       "name": "Maria",
-      "image": "assets/personagens/maria.png",
+      "image": "assets/units/maria/maria.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Maria",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2467,7 +2467,7 @@
     },
     {
       "name": "Mechanic",
-      "image": "assets/personagens/mechanic.png",
+      "image": "assets/units/mechanic/mechanic.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Mechanic",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2549,7 +2549,7 @@
     },
     {
       "name": "Medic",
-      "image": "assets/personagens/medic.png",
+      "image": "assets/units/medic/medic.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Medic",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2631,7 +2631,7 @@
     },
     {
       "name": "Paramedic Nancy",
-      "image": "assets/personagens/paramedic_nancy.png",
+      "image": "assets/units/paramedic-nancy/paramedic-nancy.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Paramedic_Nancy",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2713,7 +2713,7 @@
     },
     {
       "name": "Pepper",
-      "image": "assets/personagens/pepper.png",
+      "image": "assets/units/pepper/pepper.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Pepper",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2795,7 +2795,7 @@
     },
     {
       "name": "Policeman Diaz",
-      "image": "assets/personagens/policeman_diaz.png",
+      "image": "assets/units/policeman-diaz/policeman-diaz.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Policeman_Diaz",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2877,7 +2877,7 @@
     },
     {
       "name": "Private Rodriguez",
-      "image": "assets/personagens/private_rodriguez.png",
+      "image": "assets/units/private-rodriguez/private-rodriguez.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Private_Rodriguez",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -2959,7 +2959,7 @@
     },
     {
       "name": "Queen",
-      "image": "assets/personagens/queen.png",
+      "image": "assets/units/queen/queen.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Queen",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3041,7 +3041,7 @@
     },
     {
       "name": "Ranger",
-      "image": "assets/personagens/ranger.png",
+      "image": "assets/units/ranger/ranger.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Ranger",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3123,7 +3123,7 @@
     },
     {
       "name": "Red Hood",
-      "image": "assets/personagens/red_hood.png",
+      "image": "assets/units/red-hood/red-hood.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Red_Hood",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3205,7 +3205,7 @@
     },
     {
       "name": "Redneck",
-      "image": "assets/personagens/redneck.png",
+      "image": "assets/units/redneck/redneck.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Redneck",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3287,7 +3287,7 @@
     },
     {
       "name": "Rogue",
-      "image": "assets/personagens/rogue.png",
+      "image": "assets/units/rogue/rogue.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Rogue",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3369,7 +3369,7 @@
     },
     {
       "name": "Sarah",
-      "image": "assets/personagens/sarah.png",
+      "image": "assets/units/sarah/sarah.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Sarah",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3451,7 +3451,7 @@
     },
     {
       "name": "Saw",
-      "image": "assets/personagens/saw.png",
+      "image": "assets/units/saw/saw.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Saw",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3533,7 +3533,7 @@
     },
     {
       "name": "Sheriff Charlotte",
-      "image": "assets/personagens/sheriff_charlotte.png",
+      "image": "assets/units/sheriff-charlotte/sheriff-charlotte.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Sheriff_Charlotte",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3615,7 +3615,7 @@
     },
     {
       "name": "Sniper Polina",
-      "image": "assets/personagens/sniper_polina.png",
+      "image": "assets/units/sniper-polina/sniper-polina.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Sniper_Polina",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3697,7 +3697,7 @@
     },
     {
       "name": "Soldier",
-      "image": "assets/personagens/soldier.png",
+      "image": "assets/units/soldier/soldier.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Soldier",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3779,7 +3779,7 @@
     },
     {
       "name": "Sonya",
-      "image": "assets/personagens/sonya.png",
+      "image": "assets/units/sonya/sonya.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Sonya",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3861,7 +3861,7 @@
     },
     {
       "name": "SpecOps",
-      "image": "assets/personagens/specops.png",
+      "image": "assets/units/specops/specops.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/SpecOps",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -3943,7 +3943,7 @@
     },
     {
       "name": "Swat",
-      "image": "assets/personagens/swat.png",
+      "image": "assets/units/swat/swat.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Swat",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -4025,7 +4025,7 @@
     },
     {
       "name": "Turbo",
-      "image": "assets/personagens/turbo.png",
+      "image": "assets/units/turbo/turbo.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Turbo",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -4107,7 +4107,7 @@
     },
     {
       "name": "Welder",
-      "image": "assets/personagens/welder.png",
+      "image": "assets/units/welder/welder.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Welder",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
@@ -4189,7 +4189,7 @@
     },
     {
       "name": "Willy",
-      "image": "assets/personagens/willy.png",
+      "image": "assets/units/willy/willy.png",
       "source": {
         "url": "https://deadahead.wiki.gg/wiki/Willy",
         "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."

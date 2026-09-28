@@ -1,0 +1,1234 @@
+{
+  "Agents": {
+    "source": "https://deadahead.wiki.gg/wiki/Agents",
+    "skins": [
+      {
+        "name": "Agents",
+        "image": "assets/units/agents/agents.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Agents_Sprite.png?c46888",
+        "primary": true
+      },
+      {
+        "name": "Gearheads",
+        "image": "assets/units/agents/gearheads.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Gearheads_Sprite.png?cf37b9",
+        "primary": false
+      },
+      {
+        "name": "Twins",
+        "image": "assets/units/agents/twins.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Twins_Agents_Sprite.png?71ca1a",
+        "primary": false
+      }
+    ]
+  },
+  "Andrea": {
+    "source": "https://deadahead.wiki.gg/wiki/Andrea",
+    "skins": [
+      {
+        "name": "Andrea",
+        "image": "assets/units/andrea/andrea.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Andrea_Sprite.png?2c2e4c",
+        "primary": true
+      },
+      {
+        "name": "Master Andrea",
+        "image": "assets/units/andrea/master-andrea.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Master_Andrea_Sprite.png?647768",
+        "primary": false
+      }
+    ]
+  },
+  "Austin": {
+    "source": "https://deadahead.wiki.gg/wiki/Austin",
+    "skins": [
+      {
+        "name": "Austin",
+        "image": "assets/units/austin/austin.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Austin_Sprite.png?4c5c59",
+        "primary": true
+      },
+      {
+        "name": "Collector",
+        "image": "assets/units/austin/collector.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Collector_Sprite.png?4f49b4",
+        "primary": false
+      }
+    ]
+  },
+  "Berserker": {
+    "source": "https://deadahead.wiki.gg/wiki/Berserker",
+    "skins": [
+      {
+        "name": "Berserker",
+        "image": "assets/units/berserker/berserker.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Berserker_Sprite.png?8931dd",
+        "primary": true
+      },
+      {
+        "name": "Climber",
+        "image": "assets/units/berserker/climber.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Climber_Sprite.png?770e54",
+        "primary": false
+      }
+    ]
+  },
+  "Builder": {
+    "source": "https://deadahead.wiki.gg/wiki/Builder",
+    "skins": [
+      {
+        "name": "Builder",
+        "image": "assets/units/builder/builder.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Builder_Sprite.png?f7c722",
+        "primary": true
+      },
+      {
+        "name": "1998",
+        "image": "assets/units/builder/1998.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/1998_Sprite.png?43e6df",
+        "primary": false
+      },
+      {
+        "name": "Rookie",
+        "image": "assets/units/builder/rookie.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rookie_Sprite.png?f2d70b",
+        "primary": false
+      }
+    ]
+  },
+  "Builder Abby": {
+    "source": "https://deadahead.wiki.gg/wiki/Builder_Abby",
+    "skins": [
+      {
+        "name": "Builder Abby",
+        "image": "assets/units/builder-abby/builder-abby.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Builder_Abby_Sprite.png?faccc6",
+        "primary": true
+      },
+      {
+        "name": "Abby",
+        "image": "assets/units/builder-abby/abby.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Abby_Sprite.png?4d09f8",
+        "primary": false
+      },
+      {
+        "name": "Inspector Abby",
+        "image": "assets/units/builder-abby/inspector-abby.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Inspector_Abby_Sprite.png?f19ef1",
+        "primary": false
+      },
+      {
+        "name": "Most Wanted",
+        "image": "assets/units/builder-abby/most-wanted.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Most_Wanted_Sprite.png?88ea9c",
+        "primary": false
+      }
+    ]
+  },
+  "Cap": {
+    "source": "https://deadahead.wiki.gg/wiki/Cap",
+    "skins": [
+      {
+        "name": "Cap",
+        "image": "assets/units/cap/cap.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Cap_Sprite.png?2a87b3",
+        "primary": true
+      },
+      {
+        "name": "Coach",
+        "image": "assets/units/cap/coach.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Coach_Sprite.png?8c267b",
+        "primary": false
+      },
+      {
+        "name": "Commander",
+        "image": "assets/units/cap/commander.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Commander_Sprite.png?960f13",
+        "primary": false
+      }
+    ]
+  },
+  "Carlos": {
+    "source": "https://deadahead.wiki.gg/wiki/Carlos",
+    "skins": [
+      {
+        "name": "Carlos",
+        "image": "assets/units/carlos/carlos.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carlos_Sprite.png?b09f9e",
+        "primary": true
+      },
+      {
+        "name": "Wild Carlos",
+        "image": "assets/units/carlos/wild-carlos.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Wild_Carlos_Sprite.png?65d32e",
+        "primary": false
+      },
+      {
+        "name": "Wrench",
+        "image": "assets/units/carlos/wrench.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Wrench_Sprite.png?7832e5",
+        "primary": false
+      },
+      {
+        "name": "Beetle",
+        "image": "assets/units/carlos/beetle.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Beetle_Sprite.png?12df11",
+        "primary": false
+      }
+    ]
+  },
+  "Carol": {
+    "source": "https://deadahead.wiki.gg/wiki/Carol",
+    "skins": [
+      {
+        "name": "Carol",
+        "image": "assets/units/carol/carol.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carol_Sprite.png?f2b405",
+        "primary": true
+      },
+      {
+        "name": "Carol Flannel",
+        "image": "assets/units/carol/carol-flannel.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carol_Flannel_Sprite.png?89d641",
+        "primary": false
+      },
+      {
+        "name": "Carol Williams",
+        "image": "assets/units/carol/carol-williams.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carol_Williams_Sprite.png?633d3b",
+        "primary": false
+      },
+      {
+        "name": "Carolina Ortiz",
+        "image": "assets/units/carol/carolina-ortiz.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carolina_Ortiz_Sprite.png?512e4e",
+        "primary": false
+      },
+      {
+        "name": "Thursday",
+        "image": "assets/units/carol/thursday.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Thursday_Sprite.png?fa29c7",
+        "primary": false
+      }
+    ]
+  },
+  "Cashier": {
+    "source": "https://deadahead.wiki.gg/wiki/Cashier",
+    "skins": [
+      {
+        "name": "Cashier",
+        "image": "assets/units/cashier/cashier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Cashier_Sprite.png?b6ec06",
+        "primary": true
+      },
+      {
+        "name": "Christmas Cashier",
+        "image": "assets/units/cashier/christmas-cashier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Christmas_Cashier_Sprite.png?dadfb3",
+        "primary": false
+      },
+      {
+        "name": "First Baseman",
+        "image": "assets/units/cashier/first-baseman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/First_Baseman_Sprite.png?df33bf",
+        "primary": false
+      }
+    ]
+  },
+  "Chopper": {
+    "source": "https://deadahead.wiki.gg/wiki/Chopper",
+    "skins": [
+      {
+        "name": "Chopper",
+        "image": "assets/units/chopper/chopper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Chopper_Sprite.png?54e1d8",
+        "primary": true
+      },
+      {
+        "name": "Clown Chopper",
+        "image": "assets/units/chopper/clown-chopper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Clown_Chopper_Sprite.png?4dba09",
+        "primary": false
+      },
+      {
+        "name": "Rural Chopper",
+        "image": "assets/units/chopper/rural-chopper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rural_Chopper_Sprite.png?b67cb6",
+        "primary": false
+      },
+      {
+        "name": "Mountie",
+        "image": "assets/units/chopper/mountie.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Mountie_Sprite.png?5d8b83",
+        "primary": false
+      },
+      {
+        "name": "Courier",
+        "image": "assets/units/chopper/courier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Courier_Sprite.png?7878d6",
+        "primary": false
+      }
+    ]
+  },
+  "Demolitionist": {
+    "source": "https://deadahead.wiki.gg/wiki/Demolitionist",
+    "skins": [
+      {
+        "name": "Demolitionist",
+        "image": "assets/units/demolitionist/demolitionist.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Demolitionist_Sprite.png?68a414",
+        "primary": true
+      }
+    ]
+  },
+  "Dr. Kane": {
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Kane",
+    "skins": [
+      {
+        "name": "Dr. Kane",
+        "image": "assets/units/dr-kane/dr-kane.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Kane_Sprite.png?d3665a",
+        "primary": true
+      }
+    ]
+  },
+  "Dr. Miller": {
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Miller",
+    "skins": [
+      {
+        "name": "Dr. Miller",
+        "image": "assets/units/dr-miller/dr-miller.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Miller_Sprite.png?f9c679",
+        "primary": true
+      },
+      {
+        "name": "Engineer Miller",
+        "image": "assets/units/dr-miller/engineer-miller.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Engineer_Miller_Sprite.png?fa7935",
+        "primary": false
+      },
+      {
+        "name": "CBRN Miller",
+        "image": "assets/units/dr-miller/cbrn-miller.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/CBRN_Miller_Sprite.png?280288",
+        "primary": false
+      }
+    ]
+  },
+  "Dr. Norman": {
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Norman",
+    "skins": [
+      {
+        "name": "Dr. Norman",
+        "image": "assets/units/dr-norman/dr-norman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Norman_Sprite.png?32bc90",
+        "primary": true
+      },
+      {
+        "name": "Jake",
+        "image": "assets/units/dr-norman/jake.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Jake_Sprite.png?c30abd",
+        "primary": false
+      }
+    ]
+  },
+  "Farmer": {
+    "source": "https://deadahead.wiki.gg/wiki/Farmer",
+    "skins": [
+      {
+        "name": "Farmer",
+        "image": "assets/units/farmer/farmer.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Farmer_Sprite.png?e03e0a",
+        "primary": true
+      },
+      {
+        "name": "Redstreak",
+        "image": "assets/units/farmer/redstreak.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Redstreak_Sprite.png?553792",
+        "primary": false
+      },
+      {
+        "name": "Dale",
+        "image": "assets/units/farmer/dale.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dale_Sprite.png?dc74cc",
+        "primary": false
+      },
+      {
+        "name": "Workman",
+        "image": "assets/units/farmer/workman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Workman_Sprite.png?495426",
+        "primary": false
+      }
+    ]
+  },
+  "Firefighter": {
+    "source": "https://deadahead.wiki.gg/wiki/Firefighter",
+    "skins": [
+      {
+        "name": "Firefighter",
+        "image": "assets/units/firefighter/firefighter.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Firefighter_Sprite.png?ffd074",
+        "primary": true
+      },
+      {
+        "name": "Dusty",
+        "image": "assets/units/firefighter/dusty.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dusty_Sprite.png?941094",
+        "primary": false
+      },
+      {
+        "name": "Freedom Fighter",
+        "image": "assets/units/firefighter/freedom-fighter.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Freedom_Fighter_Sprite.png?5f61aa",
+        "primary": false
+      }
+    ]
+  },
+  "Flamethrower": {
+    "source": "https://deadahead.wiki.gg/wiki/Flamethrower",
+    "skins": [
+      {
+        "name": "Flamethrower",
+        "image": "assets/units/flamethrower/flamethrower.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Flamethrower_Sprite.png?f2b9f9",
+        "primary": true
+      },
+      {
+        "name": "Montag",
+        "image": "assets/units/flamethrower/montag.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Montag_Sprite.png?f0fad2",
+        "primary": false
+      }
+    ]
+  },
+  "Glenn": {
+    "source": "https://deadahead.wiki.gg/wiki/Glenn",
+    "skins": [
+      {
+        "name": "Glenn",
+        "image": "assets/units/glenn/glenn.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Glenn_Sprite.png?cdc2fd",
+        "primary": true
+      },
+      {
+        "name": "Glenn Woods",
+        "image": "assets/units/glenn/glenn-woods.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Glenn_Woods_Sprite.png?d93834",
+        "primary": false
+      },
+      {
+        "name": "Patrolman Glenn",
+        "image": "assets/units/glenn/patrolman-glenn.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Patrolman_Glenn_Sprite.png?c1d717",
+        "primary": false
+      },
+      {
+        "name": "Glenn Pines",
+        "image": "assets/units/glenn/glenn-pines.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Glenn_Pines_Sprite.png?da1953",
+        "primary": false
+      }
+    ]
+  },
+  "Grenadier": {
+    "source": "https://deadahead.wiki.gg/wiki/Grenadier",
+    "skins": [
+      {
+        "name": "Grenadier",
+        "image": "assets/units/grenadier/grenadier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Grenadier_Sprite.png?cd20b7",
+        "primary": true
+      },
+      {
+        "name": "Modern Grenadier",
+        "image": "assets/units/grenadier/modern-grenadier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Modern_Grenadier_Sprite.png?54b786",
+        "primary": false
+      },
+      {
+        "name": "Autopsy Tech",
+        "image": "assets/units/grenadier/autopsy-tech.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Autopsy_Tech_Sprite.png?76b0ac",
+        "primary": false
+      }
+    ]
+  },
+  "Guard": {
+    "source": "https://deadahead.wiki.gg/wiki/Guard",
+    "skins": [
+      {
+        "name": "Guard",
+        "image": "assets/units/guard/guard.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Guard_Sprite.png?ddd51f",
+        "primary": true
+      },
+      {
+        "name": "Scout",
+        "image": "assets/units/guard/scout.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Scout_Sprite.png?863b9c",
+        "primary": false
+      },
+      {
+        "name": "Offensive Guard",
+        "image": "assets/units/guard/offensive-guard.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Offensive_Guard_Sprite.png?46608a",
+        "primary": false
+      },
+      {
+        "name": "TMF Guard",
+        "image": "assets/units/guard/tmf-guard.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/TMF_Guard_Sprite.png?9ce1ee",
+        "primary": false
+      }
+    ]
+  },
+  "Gunslinger": {
+    "source": "https://deadahead.wiki.gg/wiki/Gunslinger",
+    "skins": [
+      {
+        "name": "Gunslinger",
+        "image": "assets/units/gunslinger/gunslinger.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Gunslinger_Sprite.png?769e55",
+        "primary": true
+      },
+      {
+        "name": "Rebel",
+        "image": "assets/units/gunslinger/rebel.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rebel_Gunslinger_Sprite.png?27ad96",
+        "primary": false
+      },
+      {
+        "name": "Bully",
+        "image": "assets/units/gunslinger/bully.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Bully_Sprite.png?b4c482",
+        "primary": false
+      },
+      {
+        "name": "Tack",
+        "image": "assets/units/gunslinger/tack.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Tack_Sprite.png?8a43d3",
+        "primary": false
+      }
+    ]
+  },
+  "Haruko": {
+    "source": "https://deadahead.wiki.gg/wiki/Haruko",
+    "skins": [
+      {
+        "name": "Haruko",
+        "image": "assets/units/haruko/haruko.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Haruko_Sprite.png?ec60cc",
+        "primary": true
+      }
+    ]
+  },
+  "Hero": {
+    "source": "https://deadahead.wiki.gg/wiki/Hero",
+    "skins": [
+      {
+        "name": "Hero",
+        "image": "assets/units/hero/hero.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Hero_Sprite.png?dd1bca",
+        "primary": true
+      },
+      {
+        "name": "Researcher",
+        "image": "assets/units/hero/researcher.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Researcher_Sprite.png?bd0cc3",
+        "primary": false
+      }
+    ]
+  },
+  "Jailer": {
+    "source": "https://deadahead.wiki.gg/wiki/Jailer",
+    "skins": [
+      {
+        "name": "Jailer",
+        "image": "assets/units/jailer/jailer.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Jailer_Sprite.png?e1e009",
+        "primary": true
+      },
+      {
+        "name": "Prisoner",
+        "image": "assets/units/jailer/prisoner.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Jailer_Prisoner_Sprite.png?9ddb7c",
+        "primary": false
+      },
+      {
+        "name": "Enforcer",
+        "image": "assets/units/jailer/enforcer.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Enforcer_Sprite.png?a326c6",
+        "primary": false
+      }
+    ]
+  },
+  "Juggernaut": {
+    "source": "https://deadahead.wiki.gg/wiki/Juggernaut",
+    "skins": [
+      {
+        "name": "Juggernaut",
+        "image": "assets/units/juggernaut/juggernaut.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Juggernaut_Sprite.png?dfa23c",
+        "primary": true
+      },
+      {
+        "name": "Bombardier",
+        "image": "assets/units/juggernaut/bombardier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Bombardier_Sprite.png?6e1395",
+        "primary": false
+      },
+      {
+        "name": "Bulldozer",
+        "image": "assets/units/juggernaut/bulldozer.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Bulldozer_Sprite.png?134e37",
+        "primary": false
+      },
+      {
+        "name": "Court Jester",
+        "image": "assets/units/juggernaut/court-jester.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Court_Jester_Sprite.png?24c602",
+        "primary": false
+      }
+    ]
+  },
+  "Lester": {
+    "source": "https://deadahead.wiki.gg/wiki/Lester",
+    "skins": [
+      {
+        "name": "Lester",
+        "image": "assets/units/lester/lester.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Lester_Sprite.png?d0685e",
+        "primary": true
+      },
+      {
+        "name": "Transporter Lester",
+        "image": "assets/units/lester/transporter-lester.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Transporter_Lester_Sprite.png?a5560a",
+        "primary": false
+      }
+    ]
+  },
+  "Light Soldier": {
+    "source": "https://deadahead.wiki.gg/wiki/Light_Soldier",
+    "skins": [
+      {
+        "name": "Light Soldier",
+        "image": "assets/units/light-soldier/light-soldier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Light_Soldier_Sprite.png?f2a5d2",
+        "primary": true
+      },
+      {
+        "name": "Handyman",
+        "image": "assets/units/light-soldier/handyman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Handyman_Sprite.png?48687f",
+        "primary": false
+      },
+      {
+        "name": "Liquidator",
+        "image": "assets/units/light-soldier/liquidator.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Liquidator_Sprite.png?9faae9",
+        "primary": false
+      }
+    ]
+  },
+  "Lionheart": {
+    "source": "https://deadahead.wiki.gg/wiki/Lionheart",
+    "skins": [
+      {
+        "name": "Lionheart",
+        "image": "assets/units/lionheart/lionheart.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Lionheart_Sprite.png?f4735a",
+        "primary": true
+      },
+      {
+        "name": "Arsonist",
+        "image": "assets/units/lionheart/arsonist.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Arsonist_Sprite.png?54d0c3",
+        "primary": false
+      },
+      {
+        "name": "Rancher",
+        "image": "assets/units/lionheart/rancher.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rancher_Sprite.png?b3838b",
+        "primary": false
+      }
+    ]
+  },
+  "Maria": {
+    "source": "https://deadahead.wiki.gg/wiki/Maria",
+    "skins": [
+      {
+        "name": "Maria",
+        "image": "assets/units/maria/maria.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Maria_Sprite.png?94a2ab",
+        "primary": true
+      },
+      {
+        "name": "Marebecca",
+        "image": "assets/units/maria/marebecca.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Marebecca_Sprite.png?82ccc3",
+        "primary": false
+      },
+      {
+        "name": "Maria Alvarez",
+        "image": "assets/units/maria/maria-alvarez.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Maria_Alvarez_Sprite.png?142fd3",
+        "primary": false
+      }
+    ]
+  },
+  "Mechanic": {
+    "source": "https://deadahead.wiki.gg/wiki/Mechanic",
+    "skins": [
+      {
+        "name": "Mechanic",
+        "image": "assets/units/mechanic/mechanic.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Mechanic_Sprite.png?8fea99",
+        "primary": true
+      },
+      {
+        "name": "Christmas Mechanic",
+        "image": "assets/units/mechanic/christmas-mechanic.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Christmas_Mechanic_Sprite.png?e232f4",
+        "primary": false
+      },
+      {
+        "name": "Operator",
+        "image": "assets/units/mechanic/operator.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Operator_Sprite.png?1229e0",
+        "primary": false
+      }
+    ]
+  },
+  "Medic": {
+    "source": "https://deadahead.wiki.gg/wiki/Medic",
+    "skins": [
+      {
+        "name": "Medic",
+        "image": "assets/units/medic/medic.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Medic_Sprite.png?181f04",
+        "primary": true
+      },
+      {
+        "name": "Surgeon Lt",
+        "image": "assets/units/medic/surgeon-lt.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Surgeon_Lt_Sprite.png?d800b0",
+        "primary": false
+      },
+      {
+        "name": "Nurse Hirsch",
+        "image": "assets/units/medic/nurse-hirsch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Nurse_Hirsch_Sprite.png?1050bd",
+        "primary": false
+      },
+      {
+        "name": "Dr. Hirsch",
+        "image": "assets/units/medic/dr-hirsch.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Hirsch_Sprite.png?94299f",
+        "primary": false
+      }
+    ]
+  },
+  "Paramedic Nancy": {
+    "source": "https://deadahead.wiki.gg/wiki/Paramedic_Nancy",
+    "skins": [
+      {
+        "name": "Paramedic Nancy",
+        "image": "assets/units/paramedic-nancy/paramedic-nancy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Paramedic_Nancy_Sprite.png?6f4576",
+        "primary": true
+      },
+      {
+        "name": "Nancy",
+        "image": "assets/units/paramedic-nancy/nancy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Nancy_Sprite.png?19fbf5",
+        "primary": false
+      },
+      {
+        "name": "Nurse Nancy",
+        "image": "assets/units/paramedic-nancy/nurse-nancy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Nurse_Nancy_Sprite.png?6efee5",
+        "primary": false
+      },
+      {
+        "name": "Prison Nurse",
+        "image": "assets/units/paramedic-nancy/prison-nurse.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Prison_Nurse_Sprite.png?11c6bf",
+        "primary": false
+      }
+    ]
+  },
+  "Pepper": {
+    "source": "https://deadahead.wiki.gg/wiki/Pepper",
+    "skins": [
+      {
+        "name": "Pepper",
+        "image": "assets/units/pepper/pepper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Pepper_Sprite.png?fa8179",
+        "primary": true
+      },
+      {
+        "name": "Officer Pepper",
+        "image": "assets/units/pepper/officer-pepper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Officer_Pepper_Sprite.png?159c53",
+        "primary": false
+      },
+      {
+        "name": "Carpenter Pepper",
+        "image": "assets/units/pepper/carpenter-pepper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Carpenter_Pepper_Sprite.png?2e0cfe",
+        "primary": false
+      },
+      {
+        "name": "Dr. Pepper",
+        "image": "assets/units/pepper/dr-pepper.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Pepper_Sprite.png?482471",
+        "primary": false
+      },
+      {
+        "name": "Sergeant Peppertine",
+        "image": "assets/units/pepper/sergeant-peppertine.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sergeant_Peppertine_Sprite.png?bf943b",
+        "primary": false
+      }
+    ]
+  },
+  "Policeman Diaz": {
+    "source": "https://deadahead.wiki.gg/wiki/Policeman_Diaz",
+    "skins": [
+      {
+        "name": "Policeman Diaz",
+        "image": "assets/units/policeman-diaz/policeman-diaz.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Policeman_Diaz_Sprite.png?c1c445",
+        "primary": true
+      },
+      {
+        "name": "Desperado",
+        "image": "assets/units/policeman-diaz/desperado.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Desperado_Sprite.png?5b63fe",
+        "primary": false
+      },
+      {
+        "name": "Mechanic Diaz",
+        "image": "assets/units/policeman-diaz/mechanic-diaz.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Mechanic_Diaz_Sprite.png?10c2c1",
+        "primary": false
+      }
+    ]
+  },
+  "Private Rodriguez": {
+    "source": "https://deadahead.wiki.gg/wiki/Private_Rodriguez",
+    "skins": [
+      {
+        "name": "Private Rodriguez",
+        "image": "assets/units/private-rodriguez/private-rodriguez.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Private_Rodriguez_Sprite.png?fbea43",
+        "primary": true
+      },
+      {
+        "name": "Rodriguez",
+        "image": "assets/units/private-rodriguez/rodriguez.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rodriguez_Sprite.png?3714fe",
+        "primary": false
+      },
+      {
+        "name": "El Rodriguez",
+        "image": "assets/units/private-rodriguez/el-rodriguez.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/El_Rodriguez_Sprite.png?e93f73",
+        "primary": false
+      }
+    ]
+  },
+  "Queen": {
+    "source": "https://deadahead.wiki.gg/wiki/Queen",
+    "skins": [
+      {
+        "name": "Queen",
+        "image": "assets/units/queen/queen.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Queen_Sprite.png?5c98e5",
+        "primary": true
+      },
+      {
+        "name": "Liberty Queen",
+        "image": "assets/units/queen/liberty-queen.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Liberty_Queen_Sprite.png?86687c",
+        "primary": false
+      },
+      {
+        "name": "Queen de la Muerte",
+        "image": "assets/units/queen/queen-de-la-muerte.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Queen_de_la_Muerte_Sprite.png?43e2b3",
+        "primary": false
+      }
+    ]
+  },
+  "Ranger": {
+    "source": "https://deadahead.wiki.gg/wiki/Ranger",
+    "skins": [
+      {
+        "name": "Ranger",
+        "image": "assets/units/ranger/ranger.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Ranger_Sprite.png?4b25ec",
+        "primary": true
+      },
+      {
+        "name": "Tactical Ranger",
+        "image": "assets/units/ranger/tactical-ranger.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Tactical_Ranger_Sprite.png?d36c0d",
+        "primary": false
+      },
+      {
+        "name": "TMF Ranger",
+        "image": "assets/units/ranger/tmf-ranger.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/TMF_Ranger_Sprite.png?68ee59",
+        "primary": false
+      },
+      {
+        "name": "Army Ranger",
+        "image": "assets/units/ranger/army-ranger.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Army_Ranger_Sprite.png?1b2323",
+        "primary": false
+      },
+      {
+        "name": "Lifeguard",
+        "image": "assets/units/ranger/lifeguard.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Lifeguard_Sprite.png?4f8638",
+        "primary": false
+      }
+    ]
+  },
+  "Red Hood": {
+    "source": "https://deadahead.wiki.gg/wiki/Red_Hood",
+    "skins": [
+      {
+        "name": "Red Hood",
+        "image": "assets/units/red-hood/red-hood.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Red_Hood_Sprite.png?c2ba2b",
+        "primary": true
+      },
+      {
+        "name": "Machete",
+        "image": "assets/units/red-hood/machete.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Machete_Sprite.png?306136",
+        "primary": false
+      },
+      {
+        "name": "Road Builder",
+        "image": "assets/units/red-hood/road-builder.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Road_Builder_Sprite.png?3278f4",
+        "primary": false
+      }
+    ]
+  },
+  "Redneck": {
+    "source": "https://deadahead.wiki.gg/wiki/Redneck",
+    "skins": [
+      {
+        "name": "Redneck",
+        "image": "assets/units/redneck/redneck.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Redneck_Sprite.png?af88c7",
+        "primary": true
+      },
+      {
+        "name": "Hillbilly",
+        "image": "assets/units/redneck/hillbilly.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Hillbilly_Sprite.png?1a16c2",
+        "primary": false
+      },
+      {
+        "name": "Waterboy",
+        "image": "assets/units/redneck/waterboy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Waterboy_Sprite.png?7e8974",
+        "primary": false
+      },
+      {
+        "name": "Worthy",
+        "image": "assets/units/redneck/worthy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Worthy_Sprite.png?42bf12",
+        "primary": false
+      }
+    ]
+  },
+  "Rogue": {
+    "source": "https://deadahead.wiki.gg/wiki/Rogue",
+    "skins": [
+      {
+        "name": "Rogue",
+        "image": "assets/units/rogue/rogue.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Rogue_Sprite.png?fc94ef",
+        "primary": true
+      },
+      {
+        "name": "Riot Policeman",
+        "image": "assets/units/rogue/riot-policeman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Riot_Policeman_Sprite.png?e56cf9",
+        "primary": false
+      }
+    ]
+  },
+  "Sarah": {
+    "source": "https://deadahead.wiki.gg/wiki/Sarah",
+    "skins": [
+      {
+        "name": "Sarah",
+        "image": "assets/units/sarah/sarah.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sarah_Sprite.png?25eecc",
+        "primary": true
+      }
+    ]
+  },
+  "Saw": {
+    "source": "https://deadahead.wiki.gg/wiki/Saw",
+    "skins": [
+      {
+        "name": "Saw",
+        "image": "assets/units/saw/saw.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Saw_Sprite.png?47cf00",
+        "primary": true
+      },
+      {
+        "name": "Dr. Sanchez",
+        "image": "assets/units/saw/dr-sanchez.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Dr._Sanchez_Sprite.png?788132",
+        "primary": false
+      }
+    ]
+  },
+  "Sheriff Charlotte": {
+    "source": "https://deadahead.wiki.gg/wiki/Sheriff_Charlotte",
+    "skins": [
+      {
+        "name": "Sheriff Charlotte",
+        "image": "assets/units/sheriff-charlotte/sheriff-charlotte.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sheriff_Charlotte_Sprite.png?7b4ccb",
+        "primary": true
+      },
+      {
+        "name": "Charlotte",
+        "image": "assets/units/sheriff-charlotte/charlotte.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Charlotte_Sprite.png?276189",
+        "primary": false
+      },
+      {
+        "name": "Bunny Charlotte",
+        "image": "assets/units/sheriff-charlotte/bunny-charlotte.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Bunny_Charlotte_Sprite.png?d69c32",
+        "primary": false
+      },
+      {
+        "name": "Charlee",
+        "image": "assets/units/sheriff-charlotte/charlee.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Charlee_Sprite.png?d56d49",
+        "primary": false
+      },
+      {
+        "name": "Charlotte Fortune",
+        "image": "assets/units/sheriff-charlotte/charlotte-fortune.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Charlotte_Fortune_Sprite.png?406c5d",
+        "primary": false
+      }
+    ]
+  },
+  "Sniper Polina": {
+    "source": "https://deadahead.wiki.gg/wiki/Sniper_Polina",
+    "skins": [
+      {
+        "name": "Sniper Polina",
+        "image": "assets/units/sniper-polina/sniper-polina.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sniper_Polina_Sprite.png?5440df",
+        "primary": true
+      },
+      {
+        "name": "Polina",
+        "image": "assets/units/sniper-polina/polina.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Polina_Sprite.png?4db007",
+        "primary": false
+      },
+      {
+        "name": "Navy Polina",
+        "image": "assets/units/sniper-polina/navy-polina.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Navy_Polina_Sprite.png?e96064",
+        "primary": false
+      },
+      {
+        "name": "Nomad Polina",
+        "image": "assets/units/sniper-polina/nomad-polina.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Nomad_Polina_Sprite.png?f2f465",
+        "primary": false
+      },
+      {
+        "name": "Recon Polina",
+        "image": "assets/units/sniper-polina/recon-polina.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Recon_Polina_Sprite.png?c0bbee",
+        "primary": false
+      }
+    ]
+  },
+  "Soldier": {
+    "source": "https://deadahead.wiki.gg/wiki/Soldier",
+    "skins": [
+      {
+        "name": "Soldier",
+        "image": "assets/units/soldier/soldier.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Soldier_Sprite.png?e06499",
+        "primary": true
+      },
+      {
+        "name": "Technician Bosco",
+        "image": "assets/units/soldier/technician-bosco.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Technician_Bosco_Sprite.png?39f62c",
+        "primary": false
+      },
+      {
+        "name": "Bastion",
+        "image": "assets/units/soldier/bastion.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Bastion_Sprite.png?a46f69",
+        "primary": false
+      },
+      {
+        "name": "Linebacker",
+        "image": "assets/units/soldier/linebacker.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Linebacker_Sprite.png?d75ad1",
+        "primary": false
+      }
+    ]
+  },
+  "Sonya": {
+    "source": "https://deadahead.wiki.gg/wiki/Sonya",
+    "skins": [
+      {
+        "name": "Sonya",
+        "image": "assets/units/sonya/sonya.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sonya_Sprite.png?508628",
+        "primary": true
+      },
+      {
+        "name": "Winter Sonya",
+        "image": "assets/units/sonya/winter-sonya.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Winter_Sonya_Sprite.png?d8e034",
+        "primary": false
+      },
+      {
+        "name": "Cheerleader",
+        "image": "assets/units/sonya/cheerleader.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Cheerleader_Sprite.png?db4f4a",
+        "primary": false
+      },
+      {
+        "name": "Sonya Parker",
+        "image": "assets/units/sonya/sonya-parker.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Sonya_Parker_Sprite.png?9cd813",
+        "primary": false
+      }
+    ]
+  },
+  "SpecOps": {
+    "source": "https://deadahead.wiki.gg/wiki/SpecOps",
+    "skins": [
+      {
+        "name": "SpecOps",
+        "image": "assets/units/specops/specops.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Specops_Sprite.png?48cc51",
+        "primary": true
+      },
+      {
+        "name": "Pilot",
+        "image": "assets/units/specops/pilot.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Pilot_Sprite.png?3b3b45",
+        "primary": false
+      }
+    ]
+  },
+  "Swat": {
+    "source": "https://deadahead.wiki.gg/wiki/Swat",
+    "skins": [
+      {
+        "name": "Swat",
+        "image": "assets/units/swat/swat.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Swat_Sprite.png?1c0b38",
+        "primary": true
+      },
+      {
+        "name": "Swat Foreman",
+        "image": "assets/units/swat/swat-foreman.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Swat_Foreman_Sprite.png?daa351",
+        "primary": false
+      },
+      {
+        "name": "Firestarter",
+        "image": "assets/units/swat/firestarter.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Firestarter_Sprite.png?e85c2d",
+        "primary": false
+      },
+      {
+        "name": "Cleaner",
+        "image": "assets/units/swat/cleaner.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Cleaner_Sprite.png?38d04a",
+        "primary": false
+      }
+    ]
+  },
+  "Turbo": {
+    "source": "https://deadahead.wiki.gg/wiki/Turbo",
+    "skins": [
+      {
+        "name": "Turbo",
+        "image": "assets/units/turbo/turbo.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Turbo_Sprite.png?83161c",
+        "primary": true
+      },
+      {
+        "name": "Turbo Batter",
+        "image": "assets/units/turbo/turbo-batter.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Turbo_Batter_Sprite.png?a6b13b",
+        "primary": false
+      }
+    ]
+  },
+  "Welder": {
+    "source": "https://deadahead.wiki.gg/wiki/Welder",
+    "skins": [
+      {
+        "name": "Welder",
+        "image": "assets/units/welder/welder.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Welder_Sprite.png?f691a4",
+        "primary": true
+      },
+      {
+        "name": "Christmas Welder",
+        "image": "assets/units/welder/christmas-welder.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Christmas_Welder_Sprite.png?2dda50",
+        "primary": false
+      },
+      {
+        "name": "Construction Welder",
+        "image": "assets/units/welder/construction-welder.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Construction_Welder_Sprite.png?7ce846",
+        "primary": false
+      }
+    ]
+  },
+  "Willy": {
+    "source": "https://deadahead.wiki.gg/wiki/Willy",
+    "skins": [
+      {
+        "name": "Willy",
+        "image": "assets/units/willy/willy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Willy_Sprite.png?ac1c62",
+        "primary": true
+      },
+      {
+        "name": "Dr. Lilly",
+        "image": "assets/units/willy/dr-lilly.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/Willy_Dr._Lilly_Sprite.png?402f52",
+        "primary": false
+      },
+      {
+        "name": "TMF Willy",
+        "image": "assets/units/willy/tmf-willy.png",
+        "sourceImage": "http://deadahead.wiki.gg/images/TMF_Willy_Sprite.png?1c9a24",
+        "primary": false
+      }
+    ]
+  }
+}

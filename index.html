@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=5">
   </head>
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -61,6 +61,7 @@
           <section class="profile-panel" aria-labelledby="characterName">
             <div class="portrait-stage">
               <div class="portrait-halo" aria-hidden="true"></div>
+              <div class="skin-selector" id="skinSelector" aria-label="Aparências do personagem"></div>
               <img id="characterImage" src="" alt="" width="512" height="512">
               <span class="portrait-index" id="portraitIndex"></span>
             </div>
@@ -171,7 +172,7 @@
             <details>
               <summary>Fontes e notas do projeto</summary>
               <div class="sources-content">
-                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. Os personagens usam ilustrações estilizadas; os itens são sprites de referência de cada conjunto.</p>
+                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. Personagens, skins e itens utilizam os sprites correspondentes do jogo.</p>
                 <ul id="generalSources"></ul>
               </div>
             </details>
@@ -186,6 +187,6 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js" defer></script>
+    <script src="app.js?v=5" defer></script>
   </body>
 </html>

@@ -1,8 +1,10 @@
 const state = {
   data: null,
   itemAssets: null,
+  unitAssets: null,
   characterIndex: 0,
   buildIndex: 0,
+  skinIndex: 0,
 };
 
 const elements = {
@@ -17,6 +19,7 @@ const elements = {
   name: document.querySelector("#characterName"),
   image: document.querySelector("#characterImage"),
   portraitIndex: document.querySelector("#portraitIndex"),
+  skinSelector: document.querySelector("#skinSelector"),
   buildSelect: document.querySelector("#buildSelect"),
   buildTier: document.querySelector("#buildTier"),
   buildCounter: document.querySelector("#buildCounter"),
@@ -44,7 +47,16 @@ function getRequestedState() {
   return {
     character: params.get("personagem"),
     set: params.get("set"),
+    skin: params.get("skin"),
   };
+}
+
+function getCharacterSkins(character) {
+  return state.unitAssets?.[character.name]?.skins ?? [{
+    name: character.name,
+    image: character.image,
+    primary: true,
+  }];
 }
 
 function updateUrl() {
@@ -53,6 +65,8 @@ function updateUrl() {
   const params = new URLSearchParams();
   params.set("personagem", character.name);
   params.set("set", build.set);
+  const skin = getCharacterSkins(character)[state.skinIndex];
+  if (skin && !skin.primary) params.set("skin", skin.name);
   window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
 }
 
@@ -77,7 +91,7 @@ function renderCharacterList(query = "") {
 
   elements.list.innerHTML = filtered.map(({ character, index }) => `
     <button class="character-button${index === state.characterIndex ? " active" : ""}" type="button" data-index="${index}" aria-current="${index === state.characterIndex ? "true" : "false"}">
-      <img src="${character.image}" alt="" width="42" height="42" loading="lazy">
+      <img src="${getCharacterSkins(character)[0].image}" alt="" width="42" height="42" loading="lazy">
       <span>${character.name}</span>
       <b aria-hidden="true">›</b>
     </button>
@@ -92,22 +106,42 @@ function renderCharacterList(query = "") {
   });
 }
 
-function selectCharacter(index, requestedBuild = 0, focusHeading = false) {
+function renderCharacterHero(character) {
+  const skins = getCharacterSkins(character);
+  const skin = skins[state.skinIndex] ?? skins[0];
+  const imageReady = new Image();
+  elements.image.classList.add("changing");
+  imageReady.onload = () => {
+    elements.image.src = skin.image;
+    elements.image.alt = `Sprite de ${skin.name}`;
+    elements.image.classList.remove("changing");
+  };
+  imageReady.src = skin.image;
+  elements.name.textContent = skin.name;
+
+  elements.skinSelector.innerHTML = skins.map((option, index) => `
+    <button class="skin-button${index === state.skinIndex ? " active" : ""}" type="button" data-skin-index="${index}" aria-label="Usar aparência ${option.name}" title="${option.name}" aria-pressed="${index === state.skinIndex}">
+      <img src="${option.image}" alt="" width="38" height="38" loading="lazy">
+    </button>
+  `).join("");
+  elements.skinSelector.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.skinIndex = Number(button.dataset.skinIndex);
+      renderCharacterHero(character);
+      updateUrl();
+    });
+  });
+}
+
+function selectCharacter(index, requestedBuild = 0, focusHeading = false, requestedSkin = 0) {
   const total = state.data.characters.length;
   state.characterIndex = (index + total) % total;
   state.buildIndex = Math.max(0, Math.min(requestedBuild, 2));
 
   const character = state.data.characters[state.characterIndex];
-  const imageReady = new Image();
-  elements.image.classList.add("changing");
-  imageReady.onload = () => {
-    elements.image.src = character.image;
-    elements.image.alt = `Ilustração de ${character.name}`;
-    elements.image.classList.remove("changing");
-  };
-  imageReady.src = character.image;
-
-  elements.name.textContent = character.name;
+  const skins = getCharacterSkins(character);
+  state.skinIndex = Math.max(0, Math.min(requestedSkin, skins.length - 1));
+  renderCharacterHero(character);
   elements.portraitIndex.textContent = String(state.characterIndex + 1).padStart(2, "0");
   elements.characterSelect.value = String(state.characterIndex);
   elements.buildSelect.innerHTML = character.builds.map((build, buildIndex) =>
@@ -130,7 +164,7 @@ function selectCharacter(index, requestedBuild = 0, focusHeading = false) {
   const activeListItem = elements.list.querySelector(".character-button.active");
   activeListItem?.scrollIntoView({ block: "nearest" });
   if (focusHeading) {
-    document.querySelector("#conteudo").scrollIntoView({ behavior: "smooth", block: "start" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 }
 
@@ -198,16 +232,18 @@ function connectEvents() {
 
 async function init() {
   try {
-    const [dataResponse, itemAssetsResponse] = await Promise.all([
-      fetch("data/personagens.json"),
-      fetch("data/item-assets.json"),
+    const [dataResponse, itemAssetsResponse, unitAssetsResponse] = await Promise.all([
+      fetch("data/personagens.json?v=5"),
+      fetch("data/item-assets.json?v=5"),
+      fetch("data/unit-assets.json?v=5"),
     ]);
-    if (!dataResponse.ok || !itemAssetsResponse.ok) {
-      throw new Error(`Falha HTTP ${dataResponse.status}/${itemAssetsResponse.status}`);
+    if (!dataResponse.ok || !itemAssetsResponse.ok || !unitAssetsResponse.ok) {
+      throw new Error(`Falha HTTP ${dataResponse.status}/${itemAssetsResponse.status}/${unitAssetsResponse.status}`);
     }
-    [state.data, state.itemAssets] = await Promise.all([
+    [state.data, state.itemAssets, state.unitAssets] = await Promise.all([
       dataResponse.json(),
       itemAssetsResponse.json(),
+      unitAssetsResponse.json(),
     ]);
 
     elements.characterCount.textContent = `${state.data.characterCount} personagens`;
@@ -223,7 +259,10 @@ async function init() {
     const buildIndex = Math.max(0, character.builds.findIndex(
       (build) => normalize(build.set) === normalize(requested.set),
     ));
-    selectCharacter(characterIndex, buildIndex);
+    const skinIndex = Math.max(0, getCharacterSkins(character).findIndex(
+      (skin) => normalize(skin.name) === normalize(requested.skin),
+    ));
+    selectCharacter(characterIndex, buildIndex, false, skinIndex);
 
     elements.loading.hidden = true;
     elements.content.hidden = false;

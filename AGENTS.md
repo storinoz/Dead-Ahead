@@ -6,12 +6,14 @@ Este repositório contém o site estático publicado no GitHub Pages a partir da
 
 - `data/personagens.json`: dados exibidos pelo site, com 52 personagens e 156 builds.
 - `data/item-assets.json`: catálogo dos 16 conjuntos, com nome, imagem local e fonte dos 64 itens.
-- `assets/personagens/*.png`: 52 ilustrações aprovadas, uma por personagem.
+- `data/unit-assets.json`: catálogo de 52 personagens e 162 sprites entre aparências principais e skins.
+- `assets/units/<personagem>/*.png`: sprites exatos dos personagens e suas skins.
 - `assets/items/*.png`: sprites dos quatro itens de cada conjunto; nomes seguem `<set>-<tipo>.png`.
 - `assets/branding/*`: identidade visual e arte oficial usadas no cabeçalho.
 - `downloads/Planilha_completa_builds_rev02.xlsx`: planilha completa oferecida para download.
 - `index.html`, `styles.css` e `app.js`: aplicação web sem dependências de execução.
 - `scripts/sync-item-assets.mjs`: baixa novamente os sprites e recria `data/item-assets.json`.
+- `scripts/sync-unit-assets.mjs`: baixa personagens e skins e recria `data/unit-assets.json`.
 
 ## Regras
 
@@ -24,6 +26,8 @@ Este repositório contém o site estático publicado no GitHub Pages a partir da
 7. Teste layouts de computador e celular antes de publicar.
 8. Ao adicionar um conjunto, inclua Cup, Knife, Watch e Book em `data/item-assets.json` e `assets/items`.
 9. Preserve o layout dos quatro itens em uma coluna e os textos explicativos na coluna adjacente em telas grandes.
+10. A lista lateral deve usar somente a aparência principal; skins são selecionadas apenas no painel do personagem.
+11. Não use imagens geradas por IA para personagens ou skins.
 
 ## Publicação
 
