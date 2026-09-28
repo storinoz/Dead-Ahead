@@ -19,7 +19,6 @@ const elements = {
   portraitIndex: document.querySelector("#portraitIndex"),
   buildSelect: document.querySelector("#buildSelect"),
   buildTier: document.querySelector("#buildTier"),
-  buildTitle: document.querySelector("#buildTitle"),
   buildCounter: document.querySelector("#buildCounter"),
   source: document.querySelector("#characterSource"),
   observation: document.querySelector("#observationText"),
@@ -139,7 +138,6 @@ function renderBuild() {
   const character = state.data.characters[state.characterIndex];
   const build = character.builds[state.buildIndex];
   elements.buildTier.textContent = build.label;
-  elements.buildTitle.textContent = build.set;
   elements.buildCounter.textContent = `${state.buildIndex + 1} / ${character.builds.length}`;
   elements.observation.textContent = build.observation;
   elements.criterion.textContent = build.criterion;
