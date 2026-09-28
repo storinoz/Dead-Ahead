@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#171b16">
+    <meta name="description" content="Guia de builds para todos os personagens jogáveis de Dead Ahead: Zombie Warfare.">
+    <title>Dead Ahead — Guia de builds</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Página inicial">
+        <span class="brand-mark" aria-hidden="true">DA</span>
+        <span>
+          <strong>Dead Ahead</strong>
+          <small>Guia de builds</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <span class="database-status"><i></i><span id="characterCount">52 personagens</span></span>
+        <a class="button button-secondary download-button" href="downloads/Planilha_completa_builds_rev02.xlsx" download>
+          <span aria-hidden="true">↓</span> Planilha
+        </a>
+      </div>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Lista de personagens">
+        <div class="sidebar-heading">
+          <p class="eyebrow">Elenco jogável</p>
+          <h2>Personagens</h2>
+        </div>
+        <label class="search-box" for="characterSearch">
+          <span aria-hidden="true">⌕</span>
+          <input id="characterSearch" type="search" placeholder="Buscar personagem" autocomplete="off">
+          <kbd>/</kbd>
+        </label>
+        <p class="result-count" id="resultCount" aria-live="polite"></p>
+        <nav class="character-list" id="characterList" aria-label="Escolher personagem"></nav>
+      </aside>
+
+      <main id="conteudo" class="content" tabindex="-1">
+        <section class="mobile-picker" aria-label="Seleção rápida">
+          <label for="characterSelect">Ir para personagem</label>
+          <select id="characterSelect"></select>
+        </section>
+
+        <div id="loadingState" class="loading-state" role="status">
+          <span class="loader"></span>
+          <p>Carregando builds…</p>
+        </div>
+
+        <div id="appContent" class="app-content" hidden>
+          <section class="profile-panel" aria-labelledby="characterName">
+            <div class="portrait-stage">
+              <div class="portrait-halo" aria-hidden="true"></div>
+              <img id="characterImage" src="" alt="" width="512" height="512">
+              <span class="portrait-index" id="portraitIndex"></span>
+            </div>
+
+            <div class="profile-copy">
+              <p class="eyebrow">Unidade selecionada</p>
+              <h1 id="characterName"></h1>
+              <p class="profile-intro">Escolha uma árvore recomendada para consultar os atributos prioritários de cada item.</p>
+
+              <div class="profile-actions">
+                <label class="select-field" for="buildSelect">
+                  <span>Árvore / set</span>
+                  <select id="buildSelect"></select>
+                </label>
+                <button class="button button-secondary" id="copyLink" type="button">
+                  <span aria-hidden="true">⌁</span> Copiar link
+                </button>
+              </div>
+
+              <div class="profile-meta">
+                <span class="build-tier" id="buildTier"></span>
+                <a id="characterSource" class="source-link" href="#" target="_blank" rel="noreferrer">Consultar fonte ↗</a>
+              </div>
+            </div>
+          </section>
+
+          <section class="build-section" aria-labelledby="buildTitle">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Configuração recomendada</p>
+                <h2 id="buildTitle"></h2>
+              </div>
+              <span class="build-counter" id="buildCounter"></span>
+            </div>
+
+            <div class="item-grid" id="itemGrid">
+              <article class="item-card" data-item="cup">
+                <div class="item-card-heading">
+                  <span class="item-symbol">C</span>
+                  <div><small>Item</small><h3>Cup</h3></div>
+                </div>
+                <dl>
+                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                </dl>
+              </article>
+              <article class="item-card" data-item="knife">
+                <div class="item-card-heading">
+                  <span class="item-symbol">K</span>
+                  <div><small>Item</small><h3>Knife</h3></div>
+                </div>
+                <dl>
+                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                </dl>
+              </article>
+              <article class="item-card" data-item="watch">
+                <div class="item-card-heading">
+                  <span class="item-symbol">W</span>
+                  <div><small>Item</small><h3>Watch</h3></div>
+                </div>
+                <dl>
+                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                </dl>
+              </article>
+              <article class="item-card" data-item="book">
+                <div class="item-card-heading">
+                  <span class="item-symbol">B</span>
+                  <div><small>Item</small><h3>Book</h3></div>
+                </div>
+                <dl>
+                  <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
+                  <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                </dl>
+              </article>
+            </div>
+
+            <aside class="observation" aria-labelledby="observationTitle">
+              <span class="observation-icon" aria-hidden="true">!</span>
+              <div>
+                <h3 id="observationTitle">Como usar esta árvore</h3>
+                <p id="observationText"></p>
+              </div>
+            </aside>
+
+            <details class="methodology">
+              <summary>Critério e escopo da recomendação</summary>
+              <div class="methodology-content">
+                <p id="criterionText"></p>
+                <p id="scopeText"></p>
+              </div>
+            </details>
+          </section>
+
+          <nav class="character-navigation" aria-label="Navegar entre personagens">
+            <button id="previousCharacter" class="character-nav-button" type="button">
+              <span aria-hidden="true">←</span><span><small>Anterior</small><strong></strong></span>
+            </button>
+            <button id="nextCharacter" class="character-nav-button next" type="button">
+              <span><small>Próximo</small><strong></strong></span><span aria-hidden="true">→</span>
+            </button>
+          </nav>
+
+          <section class="sources-section">
+            <details>
+              <summary>Fontes e notas do projeto</summary>
+              <div class="sources-content">
+                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. As imagens são ilustrações estilizadas geradas por IA e não são sprites oficiais.</p>
+                <ul id="generalSources"></ul>
+              </div>
+            </details>
+          </section>
+        </div>
+
+        <section id="errorState" class="error-state" hidden role="alert">
+          <strong>Não foi possível carregar os dados.</strong>
+          <p>Atualize a página ou tente novamente mais tarde.</p>
+        </section>
+      </main>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

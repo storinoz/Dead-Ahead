@@ -1,0 +1,4295 @@
+{
+  "title": "Dead Ahead — Guia de builds",
+  "updatedAt": "2026-09-27",
+  "characterCount": 52,
+  "buildCount": 156,
+  "scope": "Recomendações voltadas principalmente à campanha. Skirmish, eventos, sinergias de equipe e alterações de balanceamento podem exigir ajustes.",
+  "characters": [
+    {
+      "name": "Agents",
+      "image": "assets/personagens/agents.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Agents",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Agents: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano à distância"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano à distância > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Agents: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Agents: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Andrea",
+      "image": "assets/personagens/andrea.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Andrea",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Andrea: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Tactical em Andrea: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Military em Andrea: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Austin",
+      "image": "assets/personagens/austin.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Austin",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > HP > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > HP > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > HP > Agilidade"
+            }
+          },
+          "observation": "Military em Austin: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Austin: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Austin: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Berserker",
+      "image": "assets/personagens/berserker.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Berserker",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Berserker: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Berserker: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Berserker: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Builder",
+      "image": "assets/personagens/builder.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Builder",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Builder: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Builder: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Builder: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Builder Abby",
+      "image": "assets/personagens/builder_abby.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Builder_Abby",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Builder Abby: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Builder Abby: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Builder Abby: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Cap",
+      "image": "assets/personagens/cap.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Cap",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Hunter em Cap: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Cap: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Cap: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Carlos",
+      "image": "assets/personagens/carlos.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Carlos",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Carlos: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Carlos: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Carlos: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Carol",
+      "image": "assets/personagens/carol.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Carol",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Carol: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Carol: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Carol: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Cashier",
+      "image": "assets/personagens/cashier.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Cashier",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Dano crítico > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano crítico %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Chance crítica > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Cashier: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Cashier: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Cashier: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Chopper",
+      "image": "assets/personagens/chopper.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Chopper",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Big Boy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Big Boy em Chopper: converte o HP elevado em dano adicional. Priorize HP percentual antes dos atributos ofensivos.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Pincushion",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Pincushion em Chopper: aproveita a grande reserva de vida enquanto a unidade absorve dano. Priorize HP e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Chopper: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Demolitionist",
+      "image": "assets/personagens/demolitionist.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Demolitionist",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Demolitionist: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Demolitionist: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Demolitionist: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Kane",
+      "image": "assets/personagens/dr_kane.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Dr._Kane",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Hunter em Dr. Kane: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Dr. Kane: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Dr. Kane: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Miller",
+      "image": "assets/personagens/dr_miller.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Dr._Miller",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Dr. Miller: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Tactical em Dr. Miller: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Military em Dr. Miller: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Dr. Norman",
+      "image": "assets/personagens/dr_norman.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Dr._Norman",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Ice Breaker",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Ice Breaker em Dr. Norman: aumenta o dano contra inimigos atordoados ou congelados. Priorize dano e frequência do controle.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Dr. Norman: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Dr. Norman: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Farmer",
+      "image": "assets/personagens/farmer.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Farmer",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Farmer: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Farmer: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Farmer: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Firefighter",
+      "image": "assets/personagens/firefighter.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Firefighter",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "SwissMade",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "SwissMade em Firefighter: aumenta diretamente o dano principal sem depender de condições. Priorize dano e preparação.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Firefighter: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Firefighter: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Flamethrower",
+      "image": "assets/personagens/flamethrower.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Flamethrower",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Flamethrower: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano à distância"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano à distância > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Flamethrower: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Firefighter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Firefighter em Flamethrower: aumenta o dano contra inimigos em chamas. Funciona melhor com aplicação frequente de fogo.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Glenn",
+      "image": "assets/personagens/glenn.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Glenn",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Glenn: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Glenn: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Glenn: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Grenadier",
+      "image": "assets/personagens/grenadier.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Grenadier",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Grenadier: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Grenadier: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Grenadier: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Guard",
+      "image": "assets/personagens/guard.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Guard",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Guard: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Guard: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Guard: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Gunslinger",
+      "image": "assets/personagens/gunslinger.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Gunslinger",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Gunslinger: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Gunslinger: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Gunslinger: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Haruko",
+      "image": "assets/personagens/haruko.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Haruko",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Haruko: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Haruko: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Haruko: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "image": "assets/personagens/hero.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Hero",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Hero: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano à distância"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Hero: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Tactical em Hero: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Jailer",
+      "image": "assets/personagens/jailer.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Jailer",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Jailer: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Jailer: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Ice Breaker",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Ice Breaker em Jailer: aumenta o dano contra inimigos atordoados ou congelados. Priorize dano e frequência do controle.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Juggernaut",
+      "image": "assets/personagens/juggernaut.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Juggernaut",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Big Boy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Big Boy em Juggernaut: converte o HP elevado em dano adicional. Priorize HP percentual antes dos atributos ofensivos.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Juggernaut: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Pincushion",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Pincushion em Juggernaut: aproveita a grande reserva de vida enquanto a unidade absorve dano. Priorize HP e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Lester",
+      "image": "assets/personagens/lester.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Lester",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Lester: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Lester: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Lester: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Light Soldier",
+      "image": "assets/personagens/light_soldier.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Light_Soldier",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Light Soldier: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Light Soldier: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Light Soldier: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Lionheart",
+      "image": "assets/personagens/lionheart.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Lionheart",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Lionheart: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Firefighter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Firefighter em Lionheart: aumenta o dano contra inimigos em chamas. Funciona melhor com aplicação frequente de fogo.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Lionheart: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Maria",
+      "image": "assets/personagens/maria.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Maria",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Hunter em Maria: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Maria: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Maria: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Mechanic",
+      "image": "assets/personagens/mechanic.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Mechanic",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Dano crítico > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano crítico %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Chance crítica > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Mechanic: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Mechanic: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Boss",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Boss em Mechanic: ao entrar em campo, aumenta temporariamente o dano de todo o time. Priorize custo e preparação para renovar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Medic",
+      "image": "assets/personagens/medic.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Medic",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Builder",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Builder em Medic: pode bloquear completamente o dano recebido. Priorize HP e preparação para prolongar a presença em campo.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Medic: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Chef em Medic: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Paramedic Nancy",
+      "image": "assets/personagens/paramedic_nancy.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Paramedic_Nancy",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Builder",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Builder em Paramedic Nancy: pode bloquear completamente o dano recebido. Priorize HP e preparação para prolongar a presença em campo.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Paramedic Nancy: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Chef em Paramedic Nancy: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Pepper",
+      "image": "assets/personagens/pepper.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Pepper",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Hunter em Pepper: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Chef em Pepper: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Pepper: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Policeman Diaz",
+      "image": "assets/personagens/policeman_diaz.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Policeman_Diaz",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Policeman Diaz: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Surgery em Policeman Diaz: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano à distância > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            }
+          },
+          "observation": "Tactical em Policeman Diaz: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Private Rodriguez",
+      "image": "assets/personagens/private_rodriguez.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Private_Rodriguez",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            }
+          },
+          "observation": "Fitness em Private Rodriguez: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Boss",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Boss em Private Rodriguez: ao entrar em campo, aumenta temporariamente o dano de todo o time. Priorize custo e preparação para renovar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Private Rodriguez: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Queen",
+      "image": "assets/personagens/queen.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Queen",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Dano crítico > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Chance crítica > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Queen: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Queen: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Queen: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Ranger",
+      "image": "assets/personagens/ranger.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Ranger",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Ranger: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Ranger: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Ranger: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Red Hood",
+      "image": "assets/personagens/red_hood.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Red_Hood",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Red Hood: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Red Hood: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Red Hood: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Redneck",
+      "image": "assets/personagens/redneck.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Redneck",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Boss",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > HP > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > HP > Agilidade"
+            }
+          },
+          "observation": "Boss em Redneck: ao entrar em campo, aumenta temporariamente o dano de todo o time. Priorize custo e preparação para renovar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Redneck: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Redneck: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Rogue",
+      "image": "assets/personagens/rogue.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Rogue",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Rogue: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Rogue: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Rogue: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Sarah",
+      "image": "assets/personagens/sarah.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Sarah",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Sarah: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Tactical em Sarah: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Sarah: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Saw",
+      "image": "assets/personagens/saw.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Saw",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Saw: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Saw: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Fitness",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano corpo a corpo %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Fitness em Saw: remove pausas entre ataques. Priorize dano principal, preparação e agilidade para manter pressão constante.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Sheriff Charlotte",
+      "image": "assets/personagens/sheriff_charlotte.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Sheriff_Charlotte",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Sheriff Charlotte: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Tactical em Sheriff Charlotte: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Military em Sheriff Charlotte: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Sniper Polina",
+      "image": "assets/personagens/sniper_polina.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Sniper_Polina",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Hunter em Sniper Polina: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Tactical em Sniper Polina: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano à distância"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Alcance > Dano à distância > Custo ↓ > Dano crítico > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Alcance > Custo ↓ > Preparação ↓ > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Sniper Polina: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Soldier",
+      "image": "assets/personagens/soldier.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Soldier",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Big Boy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Big Boy em Soldier: converte o HP elevado em dano adicional. Priorize HP percentual antes dos atributos ofensivos.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Soldier: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Surgery",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Surgery em Soldier: dobra o dano abaixo de 50% de vida. Priorize HP para permanecer mais tempo na faixa de ativação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Sonya",
+      "image": "assets/personagens/sonya.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Sonya",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Sonya: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Sonya: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Sonya: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "SpecOps",
+      "image": "assets/personagens/specops.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/SpecOps",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em SpecOps: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em SpecOps: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em SpecOps: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Swat",
+      "image": "assets/personagens/swat.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Swat",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Hunter",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Hunter em Swat: o bônus cresce com a distância percorrida pelo ataque. Priorize alcance, dano e posicionamento seguro.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Swat: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Swat: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Turbo",
+      "image": "assets/personagens/turbo.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Turbo",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Gentleman",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > HP > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano corpo a corpo > Chance crítica > HP > Agilidade"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gentleman em Turbo: o dano aumenta após um crítico. Priorize chance crítica e dano crítico para sustentar o bônus.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Gambling",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Chance crítica > Dano crítico > Dano corpo a corpo"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Chance crítica > Dano crítico > Custo ↓ > Preparação ↓ > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Dano crítico > Custo ↓ > Dano corpo a corpo > Chance crítica > HP"
+            },
+            "book": {
+              "primary": "Chance crítica %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano corpo a corpo > Dano crítico > Agilidade"
+            }
+          },
+          "observation": "Gambling em Turbo: a chance crítica cresce quando a vida está baixa. É uma construção de risco focada em críticos.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "HP % > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "HP % > Custo ↓ > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "HP plano > Custo ↓ > Preparação ↓ > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Turbo: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Welder",
+      "image": "assets/personagens/welder.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Welder",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Chef",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Chef em Welder: fortalece os aliados enquanto a unidade permanece viva. Priorize custo, preparação e sobrevivência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Builder",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Builder em Welder: pode bloquear completamente o dano recebido. Priorize HP e preparação para prolongar a presença em campo.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Lucky Guy",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano corpo a corpo",
+              "secondary": "Custo ↓ > Preparação ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > HP % > Dano corpo a corpo > Agilidade"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > HP plano > Dano corpo a corpo > Agilidade"
+            }
+          },
+          "observation": "Lucky Guy em Welder: evita uma derrota fatal uma vez e deixa a unidade com 1 HP. Priorize HP, custo e preparação.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    },
+    {
+      "name": "Willy",
+      "image": "assets/personagens/willy.png",
+      "source": {
+        "url": "https://deadahead.wiki.gg/wiki/Willy",
+        "usage": "Página da unidade: função, alcance, atributos e seção Item Sets quando disponível."
+      },
+      "builds": [
+        {
+          "label": "Principal",
+          "set": "Military",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "HP %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Military em Willy: a chance de ataque extra aumenta o volume de dano. Priorize dano, preparação e boa cadência.",
+          "criterion": "Recomendação principal do rev01; observação ajustada ao set selecionado."
+        },
+        {
+          "label": "Alternativa 1",
+          "set": "Ice Breaker",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Ice Breaker em Willy: aumenta o dano contra inimigos atordoados ou congelados. Priorize dano e frequência do controle.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        },
+        {
+          "label": "Alternativa 2",
+          "set": "Tactical",
+          "items": {
+            "cup": {
+              "primary": "HP",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            },
+            "knife": {
+              "primary": "Dano à distância",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "watch": {
+              "primary": "Tempo de preparação",
+              "secondary": "Custo ↓ > Dano à distância > Alcance > Agilidade > HP"
+            },
+            "book": {
+              "primary": "Dano à distância %",
+              "secondary": "Custo ↓ > Preparação ↓ > Dano à distância > Alcance > Agilidade"
+            }
+          },
+          "observation": "Tactical em Willy: ignora parte da resistência a balas. Use esta árvore contra inimigos blindados ou resistentes.",
+          "criterion": "Alternativa recomendada conforme função, alcance e mecânica da unidade."
+        }
+      ]
+    }
+  ],
+  "generalSources": [
+    {
+      "name": "Referência geral — itens",
+      "url": "https://deadahead.wiki.gg/wiki/Item_set",
+      "usage": "Slots, atributos principais e bônus dos sets."
+    },
+    {
+      "name": "Referência geral — unidades",
+      "url": "https://deadahead.wiki.gg/wiki/Units",
+      "usage": "Elenco atual: 52 unidades humanas jogáveis."
+    },
+    {
+      "name": "Comunidade — recomendações",
+      "url": "https://www.reddit.com/r/DeadAhead/comments/1hzapb7/sets_recommendations/",
+      "usage": "Validação cruzada das regras gerais por função."
+    },
+    {
+      "name": "Atualização 4.4.3",
+      "url": "https://deadahead.zone/news/news-post-9",
+      "usage": "Inclusão de Demolitionist e Haruko; recomendações iniciais."
+    }
+  ]
+}
