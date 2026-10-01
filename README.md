@@ -18,9 +18,10 @@ Após a publicação pelo GitHub Pages, o endereço será:
 - Observação específica para a árvore selecionada.
 - Seletor visual de skins que altera o nome e o sprite no painel principal.
 - Busca por nome do personagem ou de qualquer skin, sempre abrindo a unidade principal.
-- Interface integralmente em inglês, com classe, vantagens e resumo de cada unidade.
+- Interface integralmente em inglês, com classe, vantagens, balões explicativos e resumo de cada unidade.
+- Alternância entre os modos claro e escuro, com a preferência mantida nas próximas visitas.
 - Busca rápida, navegação entre personagens e links compartilháveis.
-- Planilha Excel original disponível para download.
+- Planilha Excel original disponível pelo botão `Export .XLSX`.
 
 ## Estrutura
 

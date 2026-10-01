@@ -16,7 +16,9 @@ const elements = {
   list: document.querySelector("#characterList"),
   resultCount: document.querySelector("#resultCount"),
   characterSelect: document.querySelector("#characterSelect"),
-  characterCount: document.querySelector("#characterCount"),
+  themeToggle: document.querySelector("#themeToggle"),
+  themeIcon: document.querySelector("#themeIcon"),
+  themeLabel: document.querySelector("#themeLabel"),
   name: document.querySelector("#characterName"),
   image: document.querySelector("#characterImage"),
   portraitIndex: document.querySelector("#portraitIndex"),
@@ -28,7 +30,6 @@ const elements = {
   unitSummary: document.querySelector("#unitSummary"),
   buildSelect: document.querySelector("#buildSelect"),
   buildTier: document.querySelector("#buildTier"),
-  buildCounter: document.querySelector("#buildCounter"),
   source: document.querySelector("#characterSource"),
   observation: document.querySelector("#observationText"),
   criterion: document.querySelector("#criterionText"),
@@ -81,6 +82,24 @@ function showToast(message) {
   elements.toast.classList.add("visible");
   window.clearTimeout(showToast.timeout);
   showToast.timeout = window.setTimeout(() => elements.toast.classList.remove("visible"), 2200);
+}
+
+function applyTheme(theme, persist = true) {
+  const activeTheme = theme === "light" ? "light" : "dark";
+  document.documentElement.dataset.theme = activeTheme;
+  const targetTheme = activeTheme === "dark" ? "light" : "dark";
+  elements.themeIcon.textContent = activeTheme === "dark" ? "☀" : "☾";
+  elements.themeLabel.textContent = `${targetTheme[0].toUpperCase()}${targetTheme.slice(1)} mode`;
+  elements.themeToggle.setAttribute("aria-label", `Switch to ${targetTheme} mode`);
+  elements.themeToggle.setAttribute("aria-pressed", String(activeTheme === "light"));
+  if (persist) {
+    try { localStorage.setItem("dead-ahead-theme", activeTheme); } catch {}
+  }
+}
+
+function getShortPerkDescription(info) {
+  const firstSentence = String(info ?? "").match(/^.*?[.!?](?:\s|$)/)?.[0]?.trim();
+  return firstSentence || info || "Innate unit advantage.";
 }
 
 function buildCharacterControls() {
@@ -148,10 +167,14 @@ function renderUnitProfile(character) {
   elements.unitTagline.textContent = profile.tagline;
   elements.unitSummary.textContent = profile.summary;
   elements.perkList.innerHTML = profile.perks.length
-    ? profile.perks.map((perk) => `
-      <span class="perk-badge" title="${perk.name}">
+    ? profile.perks.map((perk, index) => `
+      <button class="perk-badge" type="button" aria-label="${perk.name}" aria-describedby="perk-tooltip-${index}">
         <img src="${perk.image}" alt="${perk.name}" width="36" height="36">
-      </span>
+        <span class="perk-tooltip" id="perk-tooltip-${index}" role="tooltip">
+          <strong>${perk.name}</strong>
+          <span>${getShortPerkDescription(perk.info)}</span>
+        </span>
+      </button>
     `).join("")
     : '<span class="no-perks">No innate perks</span>';
 }
@@ -196,7 +219,6 @@ function renderBuild() {
   const character = state.data.characters[state.characterIndex];
   const build = character.builds[state.buildIndex];
   elements.buildTier.textContent = build.label;
-  elements.buildCounter.textContent = `${state.buildIndex + 1} / ${character.builds.length}`;
   elements.observation.textContent = build.observation;
   elements.criterion.textContent = build.criterion;
   elements.scope.textContent = state.data.scope;
@@ -230,6 +252,9 @@ function renderSources() {
 }
 
 function connectEvents() {
+  elements.themeToggle.addEventListener("click", () => {
+    applyTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
+  });
   elements.search.addEventListener("input", (event) => renderCharacterList(event.target.value));
   elements.characterSelect.addEventListener("change", (event) => selectCharacter(Number(event.target.value), 0, true));
   elements.buildSelect.addEventListener("change", (event) => {
@@ -257,10 +282,10 @@ function connectEvents() {
 async function init() {
   try {
     const [dataResponse, itemAssetsResponse, unitAssetsResponse, unitProfilesResponse] = await Promise.all([
-      fetch("data/personagens.json?v=6"),
-      fetch("data/item-assets.json?v=6"),
-      fetch("data/unit-assets.json?v=6"),
-      fetch("data/unit-profiles.json?v=6"),
+      fetch("data/personagens.json?v=7"),
+      fetch("data/item-assets.json?v=7"),
+      fetch("data/unit-assets.json?v=7"),
+      fetch("data/unit-profiles.json?v=7"),
     ]);
     if (!dataResponse.ok || !itemAssetsResponse.ok || !unitAssetsResponse.ok || !unitProfilesResponse.ok) {
       throw new Error(`HTTP failure ${dataResponse.status}/${itemAssetsResponse.status}/${unitAssetsResponse.status}/${unitProfilesResponse.status}`);
@@ -272,7 +297,7 @@ async function init() {
       unitProfilesResponse.json(),
     ]);
 
-    elements.characterCount.textContent = `${state.data.characterCount} characters`;
+    applyTheme(document.documentElement.dataset.theme, false);
     buildCharacterControls();
     renderSources();
     connectEvents();

@@ -34,6 +34,7 @@ Este repositório contém o site estático publicado no GitHub Pages a partir da
 11. Não use imagens geradas por IA para personagens ou skins.
 12. A interface e todo conteúdo exibido pelo site devem permanecer em inglês.
 13. A busca deve encontrar nomes de skins, mas o resultado lateral deve continuar sendo a unidade principal.
+14. Preserve os modos claro e escuro, a preferência salva pelo navegador e os balões explicativos das vantagens.
 
 ## Publicação
 

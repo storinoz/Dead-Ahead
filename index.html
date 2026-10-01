@@ -10,7 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=6">
+    <script>
+      try {
+        const savedTheme = localStorage.getItem("dead-ahead-theme");
+        document.documentElement.dataset.theme = savedTheme || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css?v=7">
   </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
@@ -24,9 +32,12 @@
         </span>
       </a>
       <div class="topbar-actions">
-        <span class="database-status"><i></i><span id="characterCount">52 characters</span></span>
+        <button class="button button-secondary theme-toggle" id="themeToggle" type="button">
+          <span class="theme-icon" id="themeIcon" aria-hidden="true"></span>
+          <span class="theme-label" id="themeLabel"></span>
+        </button>
         <a class="button button-secondary download-button" href="downloads/Planilha_completa_builds_rev02.xlsx" download>
-          <span aria-hidden="true">↓</span><span class="download-label">Spreadsheet</span>
+          <span aria-hidden="true">↓</span><span class="download-label">Export .XLSX</span>
         </a>
       </div>
     </header>
@@ -96,7 +107,6 @@
           <section class="build-section" aria-label="Recommended configuration">
             <div class="section-heading">
               <p class="eyebrow">Recommended configuration</p>
-              <span class="build-counter" id="buildCounter"></span>
             </div>
 
             <div class="build-layout">
@@ -145,7 +155,6 @@
 
               <div class="guidance-column">
                 <section class="unit-about-panel" aria-labelledby="unitAboutTitle">
-                  <p class="eyebrow">Unit profile</p>
                   <h3 id="unitAboutTitle">About this unit</h3>
                   <p class="unit-tagline" id="unitTagline"></p>
                   <p id="unitSummary"></p>
@@ -199,6 +208,6 @@
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=6" defer></script>
+    <script src="app.js?v=7" defer></script>
   </body>
 </html>
