@@ -2,6 +2,7 @@ const state = {
   data: null,
   itemAssets: null,
   unitAssets: null,
+  unitProfiles: null,
   characterIndex: 0,
   buildIndex: 0,
   skinIndex: 0,
@@ -20,6 +21,11 @@ const elements = {
   image: document.querySelector("#characterImage"),
   portraitIndex: document.querySelector("#portraitIndex"),
   skinSelector: document.querySelector("#skinSelector"),
+  classIcon: document.querySelector("#classIcon"),
+  className: document.querySelector("#className"),
+  perkList: document.querySelector("#perkList"),
+  unitTagline: document.querySelector("#unitTagline"),
+  unitSummary: document.querySelector("#unitSummary"),
   buildSelect: document.querySelector("#buildSelect"),
   buildTier: document.querySelector("#buildTier"),
   buildCounter: document.querySelector("#buildCounter"),
@@ -38,14 +44,14 @@ function normalize(value) {
   return String(value ?? "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
-    .toLocaleLowerCase("pt-BR")
+    .toLocaleLowerCase("en-US")
     .trim();
 }
 
 function getRequestedState() {
   const params = new URLSearchParams(window.location.search);
   return {
-    character: params.get("personagem"),
+    character: params.get("character") ?? params.get("personagem"),
     set: params.get("set"),
     skin: params.get("skin"),
   };
@@ -63,7 +69,7 @@ function updateUrl() {
   const character = state.data.characters[state.characterIndex];
   const build = character.builds[state.buildIndex];
   const params = new URLSearchParams();
-  params.set("personagem", character.name);
+  params.set("character", character.name);
   params.set("set", build.set);
   const skin = getCharacterSkins(character)[state.skinIndex];
   if (skin && !skin.primary) params.set("skin", skin.name);
@@ -87,7 +93,10 @@ function buildCharacterControls() {
 function renderCharacterList(query = "") {
   const filtered = state.data.characters
     .map((character, index) => ({ character, index }))
-    .filter(({ character }) => normalize(character.name).includes(normalize(query)));
+    .filter(({ character }) => {
+      const searchableNames = [character.name, ...getCharacterSkins(character).map((skin) => skin.name)];
+      return searchableNames.some((name) => normalize(name).includes(normalize(query)));
+    });
 
   elements.list.innerHTML = filtered.map(({ character, index }) => `
     <button class="character-button${index === state.characterIndex ? " active" : ""}" type="button" data-index="${index}" aria-current="${index === state.characterIndex ? "true" : "false"}">
@@ -98,8 +107,8 @@ function renderCharacterList(query = "") {
   `).join("");
 
   elements.resultCount.textContent = query
-    ? `${filtered.length} resultado${filtered.length === 1 ? "" : "s"}`
-    : `${state.data.characters.length} em ordem alfabética`;
+    ? `${filtered.length} result${filtered.length === 1 ? "" : "s"}`
+    : `${state.data.characters.length} in alphabetical order`;
 
   elements.list.querySelectorAll("button").forEach((button) => {
     button.addEventListener("click", () => selectCharacter(Number(button.dataset.index), 0, true));
@@ -109,18 +118,15 @@ function renderCharacterList(query = "") {
 function renderCharacterHero(character) {
   const skins = getCharacterSkins(character);
   const skin = skins[state.skinIndex] ?? skins[0];
-  const imageReady = new Image();
   elements.image.classList.add("changing");
-  imageReady.onload = () => {
-    elements.image.src = skin.image;
-    elements.image.alt = `Sprite de ${skin.name}`;
-    elements.image.classList.remove("changing");
-  };
-  imageReady.src = skin.image;
+  elements.image.onload = () => elements.image.classList.remove("changing");
+  elements.image.onerror = () => elements.image.classList.remove("changing");
+  elements.image.src = skin.image;
+  elements.image.alt = `${skin.name} sprite`;
   elements.name.textContent = skin.name;
 
   elements.skinSelector.innerHTML = skins.map((option, index) => `
-    <button class="skin-button${index === state.skinIndex ? " active" : ""}" type="button" data-skin-index="${index}" aria-label="Usar aparência ${option.name}" title="${option.name}" aria-pressed="${index === state.skinIndex}">
+    <button class="skin-button${index === state.skinIndex ? " active" : ""}" type="button" data-skin-index="${index}" aria-label="Use ${option.name} skin" title="${option.name}" aria-pressed="${index === state.skinIndex}">
       <img src="${option.image}" alt="" width="38" height="38" loading="lazy">
     </button>
   `).join("");
@@ -133,6 +139,23 @@ function renderCharacterHero(character) {
   });
 }
 
+function renderUnitProfile(character) {
+  const profile = state.unitProfiles?.[character.name];
+  if (!profile) return;
+  elements.classIcon.src = profile.classIcon;
+  elements.classIcon.alt = `${profile.class} class shield`;
+  elements.className.textContent = profile.class;
+  elements.unitTagline.textContent = profile.tagline;
+  elements.unitSummary.textContent = profile.summary;
+  elements.perkList.innerHTML = profile.perks.length
+    ? profile.perks.map((perk) => `
+      <span class="perk-badge" title="${perk.name}">
+        <img src="${perk.image}" alt="${perk.name}" width="36" height="36">
+      </span>
+    `).join("")
+    : '<span class="no-perks">No innate perks</span>';
+}
+
 function selectCharacter(index, requestedBuild = 0, focusHeading = false, requestedSkin = 0) {
   const total = state.data.characters.length;
   state.characterIndex = (index + total) % total;
@@ -142,6 +165,7 @@ function selectCharacter(index, requestedBuild = 0, focusHeading = false, reques
   const skins = getCharacterSkins(character);
   state.skinIndex = Math.max(0, Math.min(requestedSkin, skins.length - 1));
   renderCharacterHero(character);
+  renderUnitProfile(character);
   elements.portraitIndex.textContent = String(state.characterIndex + 1).padStart(2, "0");
   elements.characterSelect.value = String(state.characterIndex);
   elements.buildSelect.innerHTML = character.builds.map((build, buildIndex) =>
@@ -185,7 +209,7 @@ function renderBuild() {
     card.querySelector('[data-field="itemName"]').textContent = itemAsset?.name ?? build.set;
     const image = card.querySelector("[data-item-image]");
     image.src = itemAsset?.image ?? "";
-    image.alt = itemAsset ? `${itemAsset.name}, item ${itemName} do conjunto ${build.set}` : "";
+    image.alt = itemAsset ? `${itemAsset.name}, ${itemName} from the ${build.set} set` : "";
   });
 
   updateUrl();
@@ -217,9 +241,9 @@ function connectEvents() {
   elements.copyLink.addEventListener("click", async () => {
     try {
       await navigator.clipboard.writeText(window.location.href);
-      showToast("Link desta build copiado.");
+      showToast("Build link copied.");
     } catch {
-      showToast("Copie o endereço exibido no navegador.");
+      showToast("Copy the address shown in your browser.");
     }
   });
   document.addEventListener("keydown", (event) => {
@@ -232,21 +256,23 @@ function connectEvents() {
 
 async function init() {
   try {
-    const [dataResponse, itemAssetsResponse, unitAssetsResponse] = await Promise.all([
-      fetch("data/personagens.json?v=5"),
-      fetch("data/item-assets.json?v=5"),
-      fetch("data/unit-assets.json?v=5"),
+    const [dataResponse, itemAssetsResponse, unitAssetsResponse, unitProfilesResponse] = await Promise.all([
+      fetch("data/personagens.json?v=6"),
+      fetch("data/item-assets.json?v=6"),
+      fetch("data/unit-assets.json?v=6"),
+      fetch("data/unit-profiles.json?v=6"),
     ]);
-    if (!dataResponse.ok || !itemAssetsResponse.ok || !unitAssetsResponse.ok) {
-      throw new Error(`Falha HTTP ${dataResponse.status}/${itemAssetsResponse.status}/${unitAssetsResponse.status}`);
+    if (!dataResponse.ok || !itemAssetsResponse.ok || !unitAssetsResponse.ok || !unitProfilesResponse.ok) {
+      throw new Error(`HTTP failure ${dataResponse.status}/${itemAssetsResponse.status}/${unitAssetsResponse.status}/${unitProfilesResponse.status}`);
     }
-    [state.data, state.itemAssets, state.unitAssets] = await Promise.all([
+    [state.data, state.itemAssets, state.unitAssets, state.unitProfiles] = await Promise.all([
       dataResponse.json(),
       itemAssetsResponse.json(),
       unitAssetsResponse.json(),
+      unitProfilesResponse.json(),
     ]);
 
-    elements.characterCount.textContent = `${state.data.characterCount} personagens`;
+    elements.characterCount.textContent = `${state.data.characterCount} characters`;
     buildCharacterControls();
     renderSources();
     connectEvents();

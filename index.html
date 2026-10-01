@@ -1,96 +1,101 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#171b16">
-    <meta name="description" content="Guia de builds para todos os personagens jogáveis de Dead Ahead: Zombie Warfare.">
-    <title>Dead Ahead — Guia de builds</title>
+    <meta name="description" content="Item and build guide for every playable character in Dead Ahead: Zombie Warfare.">
+    <title>Dead Ahead Zombie Warfare Guide</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="styles.css?v=6">
   </head>
   <body>
-    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <a class="skip-link" href="#content">Skip to content</a>
 
     <header class="topbar">
-      <a class="brand" href="./" aria-label="Página inicial">
+      <a class="brand" href="./" aria-label="Home page">
         <img class="brand-logo" src="assets/branding/dead-ahead-logo.webp" alt="Dead Ahead: Zombie Warfare" width="88" height="58">
         <span>
-          <strong>Dead Ahead Guide</strong>
-          <small>By KoalaBoy</small>
+          <strong>Dead Ahead Zombie Warfare Guide</strong>
+          <small>by KoalaBoy</small>
         </span>
       </a>
       <div class="topbar-actions">
-        <span class="database-status"><i></i><span id="characterCount">52 personagens</span></span>
+        <span class="database-status"><i></i><span id="characterCount">52 characters</span></span>
         <a class="button button-secondary download-button" href="downloads/Planilha_completa_builds_rev02.xlsx" download>
-          <span aria-hidden="true">↓</span> Planilha
+          <span aria-hidden="true">↓</span><span class="download-label">Spreadsheet</span>
         </a>
       </div>
     </header>
 
     <div class="app-shell">
-      <aside class="sidebar" aria-label="Lista de personagens">
+      <aside class="sidebar" aria-label="Character list">
         <div class="sidebar-heading">
-          <p class="eyebrow">Elenco jogável</p>
-          <h2>Personagens</h2>
+          <p class="eyebrow sidebar-title">Characters</p>
         </div>
         <label class="search-box" for="characterSearch">
           <span aria-hidden="true">⌕</span>
-          <input id="characterSearch" type="search" placeholder="Buscar personagem" autocomplete="off">
+          <input id="characterSearch" type="search" placeholder="Search character or skin" autocomplete="off">
           <kbd>/</kbd>
         </label>
         <p class="result-count" id="resultCount" aria-live="polite"></p>
-        <nav class="character-list" id="characterList" aria-label="Escolher personagem"></nav>
+        <nav class="character-list" id="characterList" aria-label="Choose a character"></nav>
       </aside>
 
-      <main id="conteudo" class="content" tabindex="-1">
-        <section class="mobile-picker" aria-label="Seleção rápida">
-          <label for="characterSelect">Ir para personagem</label>
+      <main id="content" class="content" tabindex="-1">
+        <section class="mobile-picker" aria-label="Quick selection">
+          <label for="characterSelect">Go to character</label>
           <select id="characterSelect"></select>
         </section>
 
         <div id="loadingState" class="loading-state" role="status">
           <span class="loader"></span>
-          <p>Carregando builds…</p>
+          <p>Loading builds…</p>
         </div>
 
         <div id="appContent" class="app-content" hidden>
           <section class="profile-panel" aria-labelledby="characterName">
             <div class="portrait-stage">
               <div class="portrait-halo" aria-hidden="true"></div>
-              <div class="skin-selector" id="skinSelector" aria-label="Aparências do personagem"></div>
+              <div class="skin-selector" id="skinSelector" aria-label="Character skins"></div>
               <img id="characterImage" src="" alt="" width="512" height="512">
               <span class="portrait-index" id="portraitIndex"></span>
             </div>
 
             <div class="profile-copy">
-              <p class="eyebrow">Unidade selecionada</p>
+              <p class="eyebrow">Selected unit</p>
               <h1 id="characterName"></h1>
-              <p class="profile-intro">Escolha uma árvore recomendada para consultar os atributos prioritários de cada item.</p>
+              <div class="unit-traits">
+                <div class="class-badge">
+                  <img id="classIcon" src="" alt="" width="42" height="42">
+                  <span><small>Class</small><strong id="className"></strong></span>
+                </div>
+                <div class="perk-list" id="perkList" aria-label="Unit perks"></div>
+              </div>
 
               <div class="profile-actions">
                 <label class="select-field" for="buildSelect">
-                  <span>Árvore / set</span>
+                  <span>Build / set</span>
                   <select id="buildSelect"></select>
                 </label>
                 <button class="button button-secondary" id="copyLink" type="button">
-                  <span aria-hidden="true">⌁</span> Copiar link
+                  <span aria-hidden="true">⌁</span> Copy link
                 </button>
               </div>
 
               <div class="profile-meta">
                 <span class="build-tier" id="buildTier"></span>
-                <a id="characterSource" class="source-link" href="#" target="_blank" rel="noreferrer">Consultar fonte ↗</a>
+                <a id="characterSource" class="source-link" href="#" target="_blank" rel="noreferrer">View source ↗</a>
               </div>
             </div>
           </section>
 
-          <section class="build-section" aria-label="Configuração recomendada">
+          <section class="build-section" aria-label="Recommended configuration">
             <div class="section-heading">
-              <p class="eyebrow">Configuração recomendada</p>
+              <p class="eyebrow">Recommended configuration</p>
               <span class="build-counter" id="buildCounter"></span>
             </div>
 
@@ -102,8 +107,8 @@
                     <div><small data-field="itemName"></small><h3>Cup</h3></div>
                   </div>
                   <dl>
-                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                    <div class="primary-stat"><dt>Primary</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secondary</dt><dd data-field="secondary"></dd></div>
                   </dl>
                 </article>
                 <article class="item-card" data-item="knife">
@@ -112,8 +117,8 @@
                     <div><small data-field="itemName"></small><h3>Knife</h3></div>
                   </div>
                   <dl>
-                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                    <div class="primary-stat"><dt>Primary</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secondary</dt><dd data-field="secondary"></dd></div>
                   </dl>
                 </article>
                 <article class="item-card" data-item="watch">
@@ -122,8 +127,8 @@
                     <div><small data-field="itemName"></small><h3>Watch</h3></div>
                   </div>
                   <dl>
-                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                    <div class="primary-stat"><dt>Primary</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secondary</dt><dd data-field="secondary"></dd></div>
                   </dl>
                 </article>
                 <article class="item-card" data-item="book">
@@ -132,24 +137,31 @@
                     <div><small data-field="itemName"></small><h3>Book</h3></div>
                   </div>
                   <dl>
-                    <div class="primary-stat"><dt>Principal</dt><dd data-field="primary"></dd></div>
-                    <div><dt>Secundários</dt><dd data-field="secondary"></dd></div>
+                    <div class="primary-stat"><dt>Primary</dt><dd data-field="primary"></dd></div>
+                    <div><dt>Secondary</dt><dd data-field="secondary"></dd></div>
                   </dl>
                 </article>
               </div>
 
               <div class="guidance-column">
+                <section class="unit-about-panel" aria-labelledby="unitAboutTitle">
+                  <p class="eyebrow">Unit profile</p>
+                  <h3 id="unitAboutTitle">About this unit</h3>
+                  <p class="unit-tagline" id="unitTagline"></p>
+                  <p id="unitSummary"></p>
+                </section>
+
                 <aside class="observation" aria-labelledby="observationTitle">
                   <span class="observation-icon" aria-hidden="true">!</span>
                   <div>
-                    <h3 id="observationTitle">Como usar esta árvore</h3>
+                    <h3 id="observationTitle">How to use this build</h3>
                     <p id="observationText"></p>
                   </div>
                 </aside>
 
                 <section class="methodology-panel" aria-labelledby="methodologyTitle">
-                  <p class="eyebrow">Base da recomendação</p>
-                  <h3 id="methodologyTitle">Critérios e escopo de recomendação</h3>
+                  <p class="eyebrow">Recommendation basis</p>
+                  <h3 id="methodologyTitle">Recommendation criteria and scope</h3>
                   <div class="methodology-content">
                     <p id="criterionText"></p>
                     <p id="scopeText"></p>
@@ -159,20 +171,20 @@
             </div>
           </section>
 
-          <nav class="character-navigation" aria-label="Navegar entre personagens">
+          <nav class="character-navigation" aria-label="Navigate between characters">
             <button id="previousCharacter" class="character-nav-button" type="button">
-              <span aria-hidden="true">←</span><span><small>Anterior</small><strong></strong></span>
+              <span aria-hidden="true">←</span><span><small>Previous</small><strong></strong></span>
             </button>
             <button id="nextCharacter" class="character-nav-button next" type="button">
-              <span><small>Próximo</small><strong></strong></span><span aria-hidden="true">→</span>
+              <span><small>Next</small><strong></strong></span><span aria-hidden="true">→</span>
             </button>
           </nav>
 
           <section class="sources-section">
             <details>
-              <summary>Fontes e notas do projeto</summary>
+              <summary>Sources and project notes</summary>
               <div class="sources-content">
-                <p>As recomendações foram organizadas a partir das páginas das unidades e de referências da comunidade. Personagens, skins e itens utilizam os sprites correspondentes do jogo.</p>
+                <p>Recommendations were organized from unit pages and community references. Characters, skins, classes, perks, and items use their corresponding in-game sprites.</p>
                 <ul id="generalSources"></ul>
               </div>
             </details>
@@ -180,13 +192,13 @@
         </div>
 
         <section id="errorState" class="error-state" hidden role="alert">
-          <strong>Não foi possível carregar os dados.</strong>
-          <p>Atualize a página ou tente novamente mais tarde.</p>
+          <strong>The data could not be loaded.</strong>
+          <p>Refresh the page or try again later.</p>
         </section>
       </main>
     </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
-    <script src="app.js?v=5" defer></script>
+    <script src="app.js?v=6" defer></script>
   </body>
 </html>

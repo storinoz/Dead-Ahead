@@ -1,0 +1,1318 @@
+{
+  "Andrea": {
+    "class": "Sniper",
+    "classIcon": "assets/classes/sniper.png",
+    "tagline": "The only thing more precise than a bullet is my arrow.",
+    "summary": "Andrea is a Sniper. She has low damage for her class, but also high health. Her courage cost and preparation time are typical for a ranged unit. She also has very high charisma",
+    "perks": [
+      {
+        "name": "Does not provoke stationary zombies",
+        "info": "Unit will not immediately attract attention from any idle zombies at the start of a mission while moving or shooting unlike all other units, most rage abilities, and Bill's rifle. However, any enemy struck by an attack from said unit will become alert. This perk will not work against human enemies, such as marauders and enemy player units in Skirmish or the Christmas Event. This perk is exclusive to Agents and Andrea.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Silent.png?2d1a30",
+        "image": "assets/perks/does-not-provoke-stationary-zombies.png"
+      },
+      {
+        "name": "High Accuracy",
+        "info": "Unit has a bullet spread angle of 15° or less. All sniper class units possess this perk, with Maria beng the only non-sniper to possess it.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighAccuracy_Icon.png?9f3851",
+        "image": "assets/perks/high-accuracy.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Andrea"
+  },
+  "Agents": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "FDD's remains are prioritizing protecting the United States against another zombie attack.",
+    "summary": "Agents are damage-oriented ranged Supports, whose main utility comes from their unique perks. Outside of those, they act strictly as extra damage dealers. Their stats are average for ranged units, and are close to those of Shooters.",
+    "perks": [
+      {
+        "name": "The unit is immediately available at the beginning of battle",
+        "info": "Unit is fully prepared to be sent out as opposed to the normal 10 seconds all other units get off their preparation time at the start of a mission. This perk is exclusive to Agents.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AvailableFromStart.png?3c42d5",
+        "image": "assets/perks/the-unit-is-immediately-available-at-the-beginning-of-battle.png"
+      },
+      {
+        "name": "Does not provoke stationary zombies",
+        "info": "Unit will not immediately attract attention from any idle zombies at the start of a mission while moving or shooting unlike all other units, most rage abilities, and Bill's rifle. However, any enemy struck by an attack from said unit will become alert. This perk will not work against human enemies, such as marauders and enemy player units in Skirmish or the Christmas Event. This perk is exclusive to Agents and Andrea.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Silent.png?2d1a30",
+        "image": "assets/perks/does-not-provoke-stationary-zombies.png"
+      },
+      {
+        "name": "Two units enter battle at one time",
+        "info": "Unit always comes out of the bus as a pair with identical stats. This perk is exclusive to Agents.",
+        "sourceImage": "http://deadahead.wiki.gg/images/TwoAtOnce.png?faffa3",
+        "image": "assets/perks/two-units-enter-battle-at-one-time.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Agents"
+  },
+  "Austin": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Coins won’t be an issue if you bring him to the battle.",
+    "summary": "Austin is a ranged Support that functions like a Shooter. He has average stats for his class, with the exception of relatively fast preparation time. He fires his gun in three-round bursts up to four times before performing a fast reload. If approached without ammo, he does a quick melee attack.",
+    "perks": [
+      {
+        "name": "Gets coins from zombies that have been killed",
+        "info": "Unit has a chance of granting additional coins after killing an enemy. This perk is exclusive to Austin.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExtraMoneyLoot.png?bba6d5",
+        "image": "assets/perks/gets-coins-from-zombies-that-have-been-killed.png"
+      },
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Austin"
+  },
+  "Berserker": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "Fast and fearless, strikes terror even into allies.",
+    "summary": "Berserker is a Fighter. His stats are marginally high for his class. He has overall fast attack speed, with criticals being landed slightly quicker than regular attacks. When performing a regular attack, Berserker always does two swings that can't be interrupted.",
+    "perks": [
+      {
+        "name": "The unit becomes fearless and inspires fear in other units",
+        "info": "Units have base stats of -300 charisma and 9,999 valor, rendering them virtually immune to the fear debuff while being capable of inspiring it within other units in a radius, similar to enemies. This perk is exclusive to Saw, Berserker, and Queen.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FearInspiration.png?61760d",
+        "image": "assets/perks/the-unit-becomes-fearless-and-inspires-fear-in-other-units.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Berserker"
+  },
+  "Builder": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "Building walls was his main occupation - now he knocks them down.",
+    "summary": "Builder is a Damager. His stats are average for his class, though his cost is also somewhat lower. His melee attacks consist of two different wrench swings that are just as slow as each other, while his critical hit is a very fast kick.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Builder"
+  },
+  "Builder Abby": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "She always loved wild shooting.",
+    "summary": "Builder Abby is a melee Damager that features elements of a Shooter in her design. She has very low stats for the former class, while possessing incredibly high ranged damage. Her melee swings are slow, and she has no unique animation for critical attacks. She has an incredibly expensive courage cost (the highest in the game currently), but her preparation time is moderate.",
+    "perks": [
+      {
+        "name": "Becomes a melee unit after running out of ammo",
+        "info": "Permanently switches to a melee weapon after firing their ranged weapon once. This perk is exclusive to Builder Abby.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Transform.png?9a5f25",
+        "image": "assets/perks/becomes-a-melee-unit-after-running-out-of-ammo.png"
+      },
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Builder_Abby"
+  },
+  "Cap": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "The fast and unerringly accurate captain of the special unit easily raises morale.",
+    "summary": "Cap is a ranged Support, who is mainly used for his utility abilities. He has average stats for ranged supports, with the exception of moderately long preparation time, and extremely high courage cost.",
+    "perks": [
+      {
+        "name": "Boosts all allied units on the battlefield",
+        "info": "Applies the inspiration buff on all units. This perk is exclusive to Cap.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AlliesBuff.png?57aed5",
+        "image": "assets/perks/boosts-all-allied-units-on-the-battlefield.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Poison resistance",
+        "info": "Immune to the poison debuff. All stationary units with a health bar are inherently poison-resistant.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistancePoison.png?ea8b27",
+        "image": "assets/perks/poison-resistance.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Cap"
+  },
+  "Carlos": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "Border patrol didn't stop him, neither do zombies.",
+    "summary": "Carlos is a Shooter. He has typical stats for his class, with the exception of large ammo capacity, and slightly below-average movement speed.",
+    "perks": [
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Carlos"
+  },
+  "Carol": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "Well trained fighter with a spear and great dexterity.",
+    "summary": "Carol is a Fighter unit. She has typically low stats for her class. Her attack speed is moderate, and her crits are landed slowly, in part due to their unique mechanics.",
+    "perks": [
+      {
+        "name": "Lightning-fast attack",
+        "info": "Unit will swiftly rush in front of a nearby enemy and deliver a guaranteed critical hit. This perk is exclusive to Carol.",
+        "sourceImage": "http://deadahead.wiki.gg/images/SuperFastMelee.png?6ca413",
+        "image": "assets/perks/lightning-fast-attack.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Carol"
+  },
+  "Cashier": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "Now he serves smacks instead of snacks.",
+    "summary": "Cashier is a Fighter unit. He has extremely high stats for his class. Cashier's attack speed is moderate, and his criticals are slow.",
+    "perks": [],
+    "source": "https://deadahead.wiki.gg/wiki/Cashier"
+  },
+  "Chopper": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "Woodcutting skills are still useful to this day. Can heal 50% of his health while eating.",
+    "summary": "Chopper is a melee Heavyweight, and has average stats for his class. His attack speed is sluggish, with critical hits being especially slow. His preparation time is one of the highest for a melee unit.",
+    "perks": [
+      {
+        "name": "Activated ability",
+        "info": "Special manual ability that can be activated by pressing the yellow icon above the unit's head. After using a unit's manual ability, a cooldown of varying times begins before it can be used again. Chopper eats to heal himself, recovering a total of 50% of his max health in 4 healing pulses. (60 second cooldown.) Grenadier and Queen both fire a grenade in a forward arc. (10 and 3 second cooldown respectively.) Lionheart unleashes a carpet of fire near him, dealing fire damage and burning corpses. (7 second cooldown.) Although not technically the same, Red Barrel's manual detonation functions similarly as it needs to be tapped directly to explode on demand.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ManualAbility.png?58a6df",
+        "image": "assets/perks/activated-ability.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Chopper"
+  },
+  "Demolitionist": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Knows how to get their attention",
+    "summary": "Demolitionist is a Support unit.",
+    "perks": [
+      {
+        "name": "Activated ability",
+        "info": "Special manual ability that can be activated by pressing the yellow icon above the unit's head. After using a unit's manual ability, a cooldown of varying times begins before it can be used again. Chopper eats to heal himself, recovering a total of 50% of his max health in 4 healing pulses. (60 second cooldown.) Grenadier and Queen both fire a grenade in a forward arc. (10 and 3 second cooldown respectively.) Lionheart unleashes a carpet of fire near him, dealing fire damage and burning corpses. (7 second cooldown.) Although not technically the same, Red Barrel's manual detonation functions similarly as it needs to be tapped directly to explode on demand.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ManualAbility.png?58a6df",
+        "image": "assets/perks/activated-ability.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Demolitionist"
+  },
+  "Dr. Kane": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "Research Group leader. Knows everything about enemy weaknesses.",
+    "summary": "Dr. Kane is a Shooter. He has average stats for his class, with the exception of slightly high health and courage cost.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Marks the weaknesses of enemies, increasing all damage against them",
+        "info": "Randomly targets up to three enemies on the battlefield at a time, causing them to take extra damage. This perk is exclusive to Dr. Kane.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Mark.png?24ec4e",
+        "image": "assets/perks/marks-the-weaknesses-of-enemies-increasing-all-damage-against-them.png"
+      },
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Explosion resistance",
+        "info": "Explosions from enemies, other units, and rage abilities deal reduced or no damage. Dr. Miller, Dr. Kane, Dr. Norman, and Lionheart have a 50% resistance, while Firefighter possesses complete immunity. The TMF 2/2 team power gives TMF units a 50% chance to ignore explosive damage. Additionally, Firefighter and TMF team units (when the team power activates) are immune to the blood explosions caused by Fat Zombie, Slob, and Putrid, all three of which produce a large ring of blood when killed. All stationary units with a health bar are inherently explosion-resistant, but not against blood explosions.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExplosionResist.png?e7946b",
+        "image": "assets/perks/explosion-resistance.png"
+      },
+      {
+        "name": "Stun resistance",
+        "info": "Reduces the slowness effect from the Stun debuff. Firefighter, Dr. Kane, Dr. Norman and Dr. Miller all posses 70% resistance to stuns.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FreezeResist.png?19c857",
+        "image": "assets/perks/stun-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Kane"
+  },
+  "Dr. Miller": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Perimeter guarding specialist.",
+    "summary": "Dr. Miller is a damage-oriented ranged Support, whose main appeal lies in his unique perks. Most of his stats, including his fire rate, are moderately high for a ranged unit. Comparatively, Miller's preparation time is very fast.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Places a mine in the specified location",
+        "info": "Unit will move to the desired location to place a proximity-based explosive before attacking enemies. This perk is exclusive to Dr. Miller.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Mine.png?807598",
+        "image": "assets/perks/places-a-mine-in-the-specified-location.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Explosion resistance",
+        "info": "Explosions from enemies, other units, and rage abilities deal reduced or no damage. Dr. Miller, Dr. Kane, Dr. Norman, and Lionheart have a 50% resistance, while Firefighter possesses complete immunity. The TMF 2/2 team power gives TMF units a 50% chance to ignore explosive damage. Additionally, Firefighter and TMF team units (when the team power activates) are immune to the blood explosions caused by Fat Zombie, Slob, and Putrid, all three of which produce a large ring of blood when killed. All stationary units with a health bar are inherently explosion-resistant, but not against blood explosions.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExplosionResist.png?e7946b",
+        "image": "assets/perks/explosion-resistance.png"
+      },
+      {
+        "name": "Stun resistance",
+        "info": "Reduces the slowness effect from the Stun debuff. Firefighter, Dr. Kane, Dr. Norman and Dr. Miller all posses 70% resistance to stuns.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FreezeResist.png?19c857",
+        "image": "assets/perks/stun-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Miller"
+  },
+  "Dr. Norman": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "A scientist and inventor who used to work at a liquid nitrogen depot.",
+    "summary": "Dr. Norman is a spray-type Shotgunner. His health is fairly high for his class, but his damage is low. Norman's courage cost and preparation time are both moderate for a ranged unit.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Stuns the enemy",
+        "info": "Greatly slows the enemy down. There are two forms of the stun effect; the first is an electrical zap that very briefly stops the target completely, and the second is a freezing effect that heavily restricts movement and attack speeds. Both effects are vital to activating the Ice Breaker \"Ice Breaker (Item Set)\") item set bonus as it gives users a 30% increase to their damage against afflicted enemies. Jailer, Willy, and Rogue utilize the former stun method while Nitrogen and Dr. Norman utilize the latter.",
+        "sourceImage": "http://deadahead.wiki.gg/images/StunAbility.png?13e716",
+        "image": "assets/perks/stuns-the-enemy.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Explosion resistance",
+        "info": "Explosions from enemies, other units, and rage abilities deal reduced or no damage. Dr. Miller, Dr. Kane, Dr. Norman, and Lionheart have a 50% resistance, while Firefighter possesses complete immunity. The TMF 2/2 team power gives TMF units a 50% chance to ignore explosive damage. Additionally, Firefighter and TMF team units (when the team power activates) are immune to the blood explosions caused by Fat Zombie, Slob, and Putrid, all three of which produce a large ring of blood when killed. All stationary units with a health bar are inherently explosion-resistant, but not against blood explosions.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExplosionResist.png?e7946b",
+        "image": "assets/perks/explosion-resistance.png"
+      },
+      {
+        "name": "Stun resistance",
+        "info": "Reduces the slowness effect from the Stun debuff. Firefighter, Dr. Kane, Dr. Norman and Dr. Miller all posses 70% resistance to stuns.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FreezeResist.png?19c857",
+        "image": "assets/perks/stun-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Dr._Norman"
+  },
+  "Farmer": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "They destroyed his farm. Now he wants revenge.",
+    "summary": "Farmer is a Shotgunner. He is fragile, slow, and takes a long time to reload his weapon. This is compensated by his courage cost and preparation time, which are quite low for a ranged unit.",
+    "perks": [],
+    "source": "https://deadahead.wiki.gg/wiki/Farmer"
+  },
+  "Firefighter": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "He fought fire - now he fights zombies.",
+    "summary": "Firefighter is a Damager. His stats are average for his class, with the exception of slightly high preparation time. Both of his swings are equally 9 frames, both hits landing exactly within the 5th frame.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Explosion resistance",
+        "info": "Explosions from enemies, other units, and rage abilities deal reduced or no damage. Dr. Miller, Dr. Kane, Dr. Norman, and Lionheart have a 50% resistance, while Firefighter possesses complete immunity. The TMF 2/2 team power gives TMF units a 50% chance to ignore explosive damage. Additionally, Firefighter and TMF team units (when the team power activates) are immune to the blood explosions caused by Fat Zombie, Slob, and Putrid, all three of which produce a large ring of blood when killed. All stationary units with a health bar are inherently explosion-resistant, but not against blood explosions.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExplosionResist.png?e7946b",
+        "image": "assets/perks/explosion-resistance.png"
+      },
+      {
+        "name": "Stun resistance",
+        "info": "Reduces the slowness effect from the Stun debuff. Firefighter, Dr. Kane, Dr. Norman and Dr. Miller all posses 70% resistance to stuns.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FreezeResist.png?19c857",
+        "image": "assets/perks/stun-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Firefighter"
+  },
+  "Flamethrower": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "He always had a passion for setting things on fire. Now he can indulge in his habit!",
+    "summary": "Flamethrower is a spray-type Shotgunner. His health and damage are on the low ends for his class, and his courage cost is rather high. However, his preparation time is low for a ranged unit.",
+    "perks": [
+      {
+        "name": "Sets the enemy on fire",
+        "info": "Inflicts the fire debuff on enemies by creating a fire pool or using incendiary weapons. Enemies ultimately killed with fire will turn to ash, destroying the body. Although the perk is given to units and rage abilities that primarily cause fires, some units can also create fire pools when killed/destroyed. If a fire pool is created, any corpses on the floor within its radius will be destroyed as well (apart from those belonging to units and enemies with fire resistance, and enemies who are already truly dead).",
+        "sourceImage": "http://deadahead.wiki.gg/images/FireDamage.png?91c7dd",
+        "image": "assets/perks/sets-the-enemy-on-fire.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Poison resistance",
+        "info": "Immune to the poison debuff. All stationary units with a health bar are inherently poison-resistant.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistancePoison.png?ea8b27",
+        "image": "assets/perks/poison-resistance.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Flamethrower"
+  },
+  "Glenn": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "He was always hard to kill.",
+    "summary": "Glenn is a Fighter. He has average stats for his class, with the exception of moderately high courage cost. Glenn's attack speed is swift, and his crits are landed as fast as his regular swings.",
+    "perks": [
+      {
+        "name": "Ability to come back to life",
+        "info": "Unit will get back up and continue fighting some time after their first death and die for real upon their second death. This perk is exclusive to Glenn.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Revival.png?362c10",
+        "image": "assets/perks/ability-to-come-back-to-life.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Glenn"
+  },
+  "Grenadier": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "For him, there is nothing that cannot be blown up by a grenade.",
+    "summary": "Grenadier throwing a grenade with origins highlighted alongside total distance.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Activated ability",
+        "info": "Special manual ability that can be activated by pressing the yellow icon above the unit's head. After using a unit's manual ability, a cooldown of varying times begins before it can be used again. Chopper eats to heal himself, recovering a total of 50% of his max health in 4 healing pulses. (60 second cooldown.) Grenadier and Queen both fire a grenade in a forward arc. (10 and 3 second cooldown respectively.) Lionheart unleashes a carpet of fire near him, dealing fire damage and burning corpses. (7 second cooldown.) Although not technically the same, Red Barrel's manual detonation functions similarly as it needs to be tapped directly to explode on demand.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ManualAbility.png?58a6df",
+        "image": "assets/perks/activated-ability.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Grenadier"
+  },
+  "Guard": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "Strong, fast, and efficient. But great strength comes at a great cost.",
+    "summary": "Guard is a Damager. His stats are above average for his class, and he does slow swings, together with moderately swifter critical kicks.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Guard"
+  },
+  "Gunslinger": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "Whoever said the pen is mightier than the sword obviously never encountered automatic weapons.",
+    "summary": "Gunslinger is a Shooter. He has slightly below-average stats for his class, along with slow movement speed and surprisingly low cost.",
+    "perks": [
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Gunslinger"
+  },
+  "Haruko": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "She's either fearless or just doesn't care",
+    "summary": "Haruko is a Damager unit. She has very slow attack speed but an extreme attack range for a melee unit.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Haruko"
+  },
+  "Hero": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "Sometimes the delivery arrives… a little scorched",
+    "summary": "Hero is a Shooter. He has average stats for his class, with somewhat high cost but decent preparation time for a ranged unit. However, because of his unique weapon type, he also has anomalously perfect accuracy and very long attack range.",
+    "perks": [
+      {
+        "name": "First strike deals 300% damage/The enhanced attack deals 300% damage and knocks the enemies back",
+        "info": "Deliver an attack that deals extra damage. This perk is exclusive to Mechanic and Hero.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AdditionalDamage.png?81ca26",
+        "image": "assets/perks/first-strike-deals-300-damage-the-enhanced-attack-deals-300-damage-and-knocks-the-enemies-back.png"
+      },
+      {
+        "name": "Pierces through enemies",
+        "info": "The projectile travels across the field without being stopped by enemies it hits. This perk is exclusive to Hero",
+        "sourceImage": "http://deadahead.wiki.gg/images/Piercing.png?806c15",
+        "image": "assets/perks/pierces-through-enemies.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Hero"
+  },
+  "Jailer": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "He may have lost his prison, but he kept his stun gun.",
+    "summary": "Jailer is a Fighter. He has average stats for his class, with the exception of his mediocre attack speed, and even slower critical swings.",
+    "perks": [
+      {
+        "name": "Stuns the enemy",
+        "info": "Greatly slows the enemy down. There are two forms of the stun effect; the first is an electrical zap that very briefly stops the target completely, and the second is a freezing effect that heavily restricts movement and attack speeds. Both effects are vital to activating the Ice Breaker \"Ice Breaker (Item Set)\") item set bonus as it gives users a 30% increase to their damage against afflicted enemies. Jailer, Willy, and Rogue utilize the former stun method while Nitrogen and Dr. Norman utilize the latter.",
+        "sourceImage": "http://deadahead.wiki.gg/images/StunAbility.png?13e716",
+        "image": "assets/perks/stuns-the-enemy.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Jailer"
+  },
+  "Juggernaut": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "\"I'm still worth it!\"",
+    "summary": "Juggernaut is a melee Heavyweight. His health is slightly below average for his class, meanwhile his melee damage is the opposite. Juggernaut's movement and attack speed are sluggish, but his preparation time is fairly swift for a melee heavyweight.",
+    "perks": [
+      {
+        "name": "Additional defense against damage",
+        "info": "Unit always starts with a set amount of SP (Shield Points) on top of their regular health. This perk is shared between Willy and Juggernaut, both of whom are heavyweights.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExtraHealth.png?49025d",
+        "image": "assets/perks/additional-defense-against-damage.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Juggernaut"
+  },
+  "Lester": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "A white-collar worker with a double-barreled shotgun who is trying to save his own life.",
+    "summary": "Lester is a Shotgunner. He is fragile and moves slowly, but fires his gun swiftly. His courage cost and preparation time are quite low for a ranged unit.",
+    "perks": [],
+    "source": "https://deadahead.wiki.gg/wiki/Lester"
+  },
+  "Light Soldier": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "Some say he’s still got the most powerful punch of them all.",
+    "summary": "Light Soldier is a Damager. His stats are above average for his class, and he does moderately fast swings, along with marginally slower critical slams that cause knockback on hit.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Poison resistance",
+        "info": "Immune to the poison debuff. All stationary units with a health bar are inherently poison-resistant.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistancePoison.png?ea8b27",
+        "image": "assets/perks/poison-resistance.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Light_Soldier"
+  },
+  "Lionheart": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "He feels safe by a naked flame",
+    "summary": "Lionheart is a melee Heavyweight. His stats are below average for his class, with the exception of slightly fast movement speed and preparation time. He attacks moderately fast, and has no unique animation for critical swings.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Activated ability",
+        "info": "Special manual ability that can be activated by pressing the yellow icon above the unit's head. After using a unit's manual ability, a cooldown of varying times begins before it can be used again. Chopper eats to heal himself, recovering a total of 50% of his max health in 4 healing pulses. (60 second cooldown.) Grenadier and Queen both fire a grenade in a forward arc. (10 and 3 second cooldown respectively.) Lionheart unleashes a carpet of fire near him, dealing fire damage and burning corpses. (7 second cooldown.) Although not technically the same, Red Barrel's manual detonation functions similarly as it needs to be tapped directly to explode on demand.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ManualAbility.png?58a6df",
+        "image": "assets/perks/activated-ability.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Explosion resistance",
+        "info": "Explosions from enemies, other units, and rage abilities deal reduced or no damage. Dr. Miller, Dr. Kane, Dr. Norman, and Lionheart have a 50% resistance, while Firefighter possesses complete immunity. The TMF 2/2 team power gives TMF units a 50% chance to ignore explosive damage. Additionally, Firefighter and TMF team units (when the team power activates) are immune to the blood explosions caused by Fat Zombie, Slob, and Putrid, all three of which produce a large ring of blood when killed. All stationary units with a health bar are inherently explosion-resistant, but not against blood explosions.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExplosionResist.png?e7946b",
+        "image": "assets/perks/explosion-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Lionheart"
+  },
+  "Maria": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Freedom is her goal.",
+    "summary": "Maria is a damage-oriented ranged Support, whose main appeal lies in her unique perks. Her damage and movement speed are quite high for her class, and her health is above average. This is counterbalanced by Maria's slow preparation time and high courage cost.",
+    "perks": [
+      {
+        "name": "Can shoot at two targets",
+        "info": "When shooting, damage dealt alternates between two chosen targets. This perk is exclusive to Maria.",
+        "sourceImage": "http://deadahead.wiki.gg/images/DoubleTarget.png?ccf64b",
+        "image": "assets/perks/can-shoot-at-two-targets.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "High Accuracy",
+        "info": "Unit has a bullet spread angle of 15° or less. All sniper class units possess this perk, with Maria beng the only non-sniper to possess it.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighAccuracy_Icon.png?9f3851",
+        "image": "assets/perks/high-accuracy.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Maria"
+  },
+  "Medic": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Field Medic.",
+    "summary": "Medic is a ranged Support, who is mainly used for her utility abilities. Her stats are average for ranged supports, with the exception of moderately long preparation time, and extremely high courage cost.",
+    "perks": [
+      {
+        "name": "Heals nearby units",
+        "info": "Can perform actions that restore lost health to human units. This perk is exclusive to Medkit, Medic, and Paramedic Nancy.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AlliesHealing.png?e49490",
+        "image": "assets/perks/heals-nearby-units.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Poison resistance",
+        "info": "Immune to the poison debuff. All stationary units with a health bar are inherently poison-resistant.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistancePoison.png?ea8b27",
+        "image": "assets/perks/poison-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Medic"
+  },
+  "Mechanic": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "Rushes into battle with overwhelming strength and speed!",
+    "summary": "Mechanic is a Fighter unit. He has typical stats for his class, with the exception of unusually high preparation time. Mechanic's attack speed is moderately quick, and his crits are landed as fast as his regular swings.",
+    "perks": [
+      {
+        "name": "First strike deals 300% damage/The enhanced attack deals 300% damage and knocks the enemies back",
+        "info": "Deliver an attack that deals extra damage. This perk is exclusive to Mechanic and Hero.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AdditionalDamage.png?81ca26",
+        "image": "assets/perks/first-strike-deals-300-damage-the-enhanced-attack-deals-300-damage-and-knocks-the-enemies-back.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Mechanic"
+  },
+  "Paramedic Nancy": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "She can raise anyone from the dead",
+    "summary": "Nancy is a melee Support unit, who is mainly focused on her supportive abilities. She has high courage cost and preparation time, but also high health and movement speed. Nancy's damage is low, and her attack speed is sluggish. She has no unique animation for critical swings.",
+    "perks": [
+      {
+        "name": "Heals nearby units",
+        "info": "Can perform actions that restore lost health to human units. This perk is exclusive to Medkit, Medic, and Paramedic Nancy.",
+        "sourceImage": "http://deadahead.wiki.gg/images/AlliesHealing.png?e49490",
+        "image": "assets/perks/heals-nearby-units.png"
+      },
+      {
+        "name": "Resurrects units",
+        "info": "Can revive a killed unit once, returning them back with 50% health. This perk is exclusive to Paramedic Nancy.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Revive.png?af0528",
+        "image": "assets/perks/resurrects-units.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Paramedic_Nancy"
+  },
+  "Pepper": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Road traffic patrol officer.",
+    "summary": "Pepper is a damage-focused ranged Support, who is able to sustain herself at a cost of mediocre firerate and courage cost.",
+    "perks": [
+      {
+        "name": "Chance to dodge a hit",
+        "info": "An attack will be avoided by moving backward. Only melee attacks will trigger a dodge, and the unit will still be susceptible to other attacks such as bullets. This perk will not activate if the unit is on the edge of the screen, in context of Skirmish. This perk is shared between Pepper and Ranger, both of whom are ranged units.",
+        "sourceImage": "http://deadahead.wiki.gg/images/DodgeChance.png?11a7f3",
+        "image": "assets/perks/chance-to-dodge-a-hit.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Pepper"
+  },
+  "Policeman Diaz": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "A lone wolf.",
+    "summary": "Policeman Diaz is a Shotgunner. He has relatively high stats for his class, with the exception of his very slow walking speed.",
+    "perks": [
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Policeman_Diaz"
+  },
+  "Private Rodriguez": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "That training he got from serving helped him survive this long. Will it be enough to survive even longer?",
+    "summary": "Basics",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Private_Rodriguez"
+  },
+  "Queen": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "Explosions put a smile on her face!",
+    "summary": "Queen is a damage-oriented melee Support unit. She has low stats, and fairly slow attack speed.",
+    "perks": [
+      {
+        "name": "Activated ability",
+        "info": "Special manual ability that can be activated by pressing the yellow icon above the unit's head. After using a unit's manual ability, a cooldown of varying times begins before it can be used again. Chopper eats to heal himself, recovering a total of 50% of his max health in 4 healing pulses. (60 second cooldown.) Grenadier and Queen both fire a grenade in a forward arc. (10 and 3 second cooldown respectively.) Lionheart unleashes a carpet of fire near him, dealing fire damage and burning corpses. (7 second cooldown.) Although not technically the same, Red Barrel's manual detonation functions similarly as it needs to be tapped directly to explode on demand.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ManualAbility.png?58a6df",
+        "image": "assets/perks/activated-ability.png"
+      },
+      {
+        "name": "The unit becomes fearless and inspires fear in other units",
+        "info": "Units have base stats of -300 charisma and 9,999 valor, rendering them virtually immune to the fear debuff while being capable of inspiring it within other units in a radius, similar to enemies. This perk is exclusive to Saw, Berserker, and Queen.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FearInspiration.png?61760d",
+        "image": "assets/perks/the-unit-becomes-fearless-and-inspires-fear-in-other-units.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Queen"
+  },
+  "Ranger": {
+    "class": "Shotgunner",
+    "classIcon": "assets/classes/shotgunner.png",
+    "tagline": "A fearless warrior that fights for honor and glory! But with a shotgun.",
+    "summary": "Ranger is a Shotgunner. He has relatively high stats for his class, including fast movement speed.",
+    "perks": [
+      {
+        "name": "Chance to dodge a hit",
+        "info": "An attack will be avoided by moving backward. Only melee attacks will trigger a dodge, and the unit will still be susceptible to other attacks such as bullets. This perk will not activate if the unit is on the edge of the screen, in context of Skirmish. This perk is shared between Pepper and Ranger, both of whom are ranged units.",
+        "sourceImage": "http://deadahead.wiki.gg/images/DodgeChance.png?11a7f3",
+        "image": "assets/perks/chance-to-dodge-a-hit.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Ranger"
+  },
+  "Red Hood": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "Some might say he has a repulsive character",
+    "summary": "Red Hood is a melee Heavyweight, and has slightly above-average stats for his class. His attack speed is moderately slow. Red Hood possesses a unique critical attack: he will raise his machete, and strike his target with it, releasing a cosmetic psi wave.",
+    "perks": [
+      {
+        "name": "Unleashes a wave that knocks all nearby enemies away",
+        "info": "Unit will produce a wave that knocks nearby enemies away when it receives a melee attack. This perk is exclusive to Red Hood.",
+        "sourceImage": "http://deadahead.wiki.gg/images/WaveLeash.png?bf5fc3",
+        "image": "assets/perks/unleashes-a-wave-that-knocks-all-nearby-enemies-away.png"
+      },
+      {
+        "name": "Poison resistance",
+        "info": "Immune to the poison debuff. All stationary units with a health bar are inherently poison-resistant.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistancePoison.png?ea8b27",
+        "image": "assets/perks/poison-resistance.png"
+      },
+      {
+        "name": "Lures zombies",
+        "info": "Zombies in a large radius will move towards the unit, attacking it while ignoring other targets. This perk is exclusive to Drone.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Taunt.png?7dbfd6",
+        "image": "assets/perks/lures-zombies.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Red_Hood"
+  },
+  "Redneck": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "Country guy with a shovel.",
+    "summary": "Redneck is a Fighter unit. He is very expendable, costing a low amount of courage and preparing rapidly in a few seconds, but at a cost of having low health. His melee damage is also small, and he has moderate attack speed, together with slow criticals.",
+    "perks": [],
+    "source": "https://deadahead.wiki.gg/wiki/Redneck"
+  },
+  "Rogue": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "A soldier who stuns any opponent",
+    "summary": "Rogue is a Fighter. He has abnormally high health and damage for his class, but also abnormally low agility. His attack speed is overall moderate.",
+    "perks": [
+      {
+        "name": "Stuns the enemy",
+        "info": "Greatly slows the enemy down. There are two forms of the stun effect; the first is an electrical zap that very briefly stops the target completely, and the second is a freezing effect that heavily restricts movement and attack speeds. Both effects are vital to activating the Ice Breaker \"Ice Breaker (Item Set)\") item set bonus as it gives users a 30% increase to their damage against afflicted enemies. Jailer, Willy, and Rogue utilize the former stun method while Nitrogen and Dr. Norman utilize the latter.",
+        "sourceImage": "http://deadahead.wiki.gg/images/StunAbility.png?13e716",
+        "image": "assets/perks/stuns-the-enemy.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Rogue"
+  },
+  "Sarah": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "In the new world, her talents were quickly put to use",
+    "summary": "Sarah is a Fighter unit. Her stats are mostly average for her class, with the exception of marginally higher base damage, and very low critical chance. She has fast attack speed. When performing a regular attack, Sarah always does two swings that can't be interrupted.",
+    "perks": [
+      {
+        "name": "Chance to dodge a hit",
+        "info": "An attack will be avoided by moving backward. Only melee attacks will trigger a dodge, and the unit will still be susceptible to other attacks such as bullets. This perk will not activate if the unit is on the edge of the screen, in context of Skirmish. This perk is shared between Pepper and Ranger, both of whom are ranged units.",
+        "sourceImage": "http://deadahead.wiki.gg/images/DodgeChance.png?11a7f3",
+        "image": "assets/perks/chance-to-dodge-a-hit.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Sarah"
+  },
+  "Saw": {
+    "class": "Fighter",
+    "classIcon": "assets/classes/fighter.png",
+    "tagline": "He is not afraid of people or zombies... But everyone is afraid of him.",
+    "summary": "Saw is a Fighter. His stats are marginally high for his class, and he has fairly slow attack speed. Saw possesses a unique critical attack: after winding up his chainsaw, he will deal up to 5 critical hits to his current target. If his target dies or he was knocked back before dealing all five hits, Saw will end the attack prematurely.",
+    "perks": [
+      {
+        "name": "The unit becomes fearless and inspires fear in other units",
+        "info": "Units have base stats of -300 charisma and 9,999 valor, rendering them virtually immune to the fear debuff while being capable of inspiring it within other units in a radius, similar to enemies. This perk is exclusive to Saw, Berserker, and Queen.",
+        "sourceImage": "http://deadahead.wiki.gg/images/FearInspiration.png?61760d",
+        "image": "assets/perks/the-unit-becomes-fearless-and-inspires-fear-in-other-units.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Saw"
+  },
+  "Sheriff Charlotte": {
+    "class": "Sniper",
+    "classIcon": "assets/classes/sniper.png",
+    "tagline": "Texan girls seems to have accuracy that no other girls have.",
+    "summary": "Charlotte is a Sniper, and has average damage and health for her class. Her courage cost is rather high for a sniper unit, which is compensated by her faster-than-average preparation time.",
+    "perks": [
+      {
+        "name": "High Accuracy",
+        "info": "Unit has a bullet spread angle of 15° or less. All sniper class units possess this perk, with Maria beng the only non-sniper to possess it.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighAccuracy_Icon.png?9f3851",
+        "image": "assets/perks/high-accuracy.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Sheriff_Charlotte"
+  },
+  "Sniper Polina": {
+    "class": "Sniper",
+    "classIcon": "assets/classes/sniper.png",
+    "tagline": "Fire will be opened on enemies without any warning.",
+    "summary": "Polina is a Sniper, and has slightly above average damage for her class. All her other stats are typical for snipers, with the exception of abnormally low movement speed.",
+    "perks": [
+      {
+        "name": "High Accuracy",
+        "info": "Unit has a bullet spread angle of 15° or less. All sniper class units possess this perk, with Maria beng the only non-sniper to possess it.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighAccuracy_Icon.png?9f3851",
+        "image": "assets/perks/high-accuracy.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Sniper_Polina"
+  },
+  "Soldier": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "Not much has changed since his last job.",
+    "summary": "Soldier is a melee Heavyweight, and has slightly above-average stats for his class, with the exception of low damage. His attack speed is moderately fast, with critical hits being landed roughly as fast. His preparation time is surprisingly high for a melee unit.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Soldier"
+  },
+  "Sonya": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "A natural fighter with honed combat skills. Has a deadly signature move.",
+    "summary": "Sonya is a Shooter. She has average damage for her class, along with relatively high health and movement speed.",
+    "perks": [
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Sonya"
+  },
+  "SpecOps": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "A soldier of a special forces unit with the very best equipment and melee skills. Has ranged weaponry. Drops from the sky.",
+    "summary": "SpecOps is a Shooter. He has average damage for his class, along with relatively high health, courage cost, and moderate movement speed.",
+    "perks": [
+      {
+        "name": "Ability to drop on the battlefield",
+        "info": "Units can be placed almost anywhere on the battlefield. A unique targeting marker will appear to indicate where the unit will be dropped/placed or display its radius of effect. All support items possess this perk. This includes Empty Barrel, Medkit, Red Barrel, Molotov, Generator, Nitrogen, Turret, and Drone. SpecOps is the only human unit to possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/DropOnBattlefield.png?aa9f10",
+        "image": "assets/perks/ability-to-drop-on-the-battlefield.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/SpecOps"
+  },
+  "Swat": {
+    "class": "Shooter",
+    "classIcon": "assets/classes/shooter.png",
+    "tagline": "A mix of incendiary bullets with ordinary ammunition turned out to be a nice idea!",
+    "summary": "Swat is a Shooter. He has average damage for his class, along with above average health, and high courage cost and movement speed.",
+    "perks": [
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      },
+      {
+        "name": "High rate of fire",
+        "info": "Ranged units with a fast firing speed. The exact firing speed varies between each unit, some of them firing faster or slower than the others. Damage is usually dealt quicker than other ranged units but is generally less accurate and more suited for crowd control on groups of weaker enemies. All shooters except Hero, Builder Abby, and Austin possess this perk.",
+        "sourceImage": "http://deadahead.wiki.gg/images/HighFireRate.png?fc77b0",
+        "image": "assets/perks/high-rate-of-fire.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Swat"
+  },
+  "Turbo": {
+    "class": "Damager",
+    "classIcon": "assets/classes/damager.png",
+    "tagline": "Every strike brings her closer to the next home run.",
+    "summary": "Turbo is a Damager. Her stats are above average for her class, and she does moderately fast swings, together with extremely slow criticals.",
+    "perks": [
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      },
+      {
+        "name": "Close combat protection",
+        "info": "Damage received from melee attacks is reduced. Policeman Diaz, Soldier, and all Damagers possess this perk. Policeman Diaz has a 50% resistance while others have only 25%. The Prisoners \"Prisoners (Team)\") 2/2 Team Power provides all units on said team with 50% melee resistance. This perk cannot exceed 75% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/MeleeResistance.png?46b477",
+        "image": "assets/perks/close-combat-protection.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Turbo"
+  },
+  "Welder": {
+    "class": "Support",
+    "classIcon": "assets/classes/support.png",
+    "tagline": "A garage welding kit comes in handy even in the apocalypse.",
+    "summary": "Welder is a melee Support unit, who provides strictly utility aid. He has extremely high rage cost and preparation time, along with extremely low health, but also very high movement speed.",
+    "perks": [
+      {
+        "name": "Only attacks the enemy base",
+        "info": "Avoids all enemies and heads directly to the barricade to attack it. This perk is exclusive to Welder.",
+        "sourceImage": "http://deadahead.wiki.gg/images/TargetBlockadeOnly.png?1ba6b2",
+        "image": "assets/perks/only-attacks-the-enemy-base.png"
+      },
+      {
+        "name": "It can repair a bus, a turret and a generator",
+        "info": "Can heal the bus, Turret, and Generator for varying amounts of their maximum health by approaching them. Despite the perk's implicit description, multiple Turrets and Generators can be repaired. This perk is exclusive to Welder.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Repairs.png?247743",
+        "image": "assets/perks/it-can-repair-a-bus-a-turret-and-a-generator.png"
+      },
+      {
+        "name": "Fire resistance",
+        "info": "Damage received from fire is reduced. Units with 100% resistance will ignore fire pools completely, but their corpses cannot be burned. Dr. Kane, Dr. Norman, Firefighter, Dr. Miller, Hero and all stationary units with a health bar all possess this perk. Hero is the only one who has 50% resistance.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceFire.png?90db92",
+        "image": "assets/perks/fire-resistance.png"
+      },
+      {
+        "name": "Does not turn into a zombie after death",
+        "info": "Units killed with their corpse intact will not turn into a zombie. This perk does not prevent Energy Sphere from turning units into Offals. Grenadier, Welder, Flamethrower, and Juggernaut create an explosion and a fire pool when destroyed, which damage both enemies and allies. Soldier, Cap, Swat, and Rogue simply fall after their death. Specops will do a last-ditch attack by firing three more shots as he dies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/NoZombieChance.png?620bca",
+        "image": "assets/perks/does-not-turn-into-a-zombie-after-death.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Welder"
+  },
+  "Willy": {
+    "class": "Heavyweight",
+    "classIcon": "assets/classes/heavyweight.png",
+    "tagline": "A soldier equipped with a shield, a bulletproof suit and a stun gun.",
+    "summary": "Willy is a ranged Heavyweight that fights in close quarters. He has low health and damage for his class, along with higher-than-average courage cost. Meanwhile, his preparation time is relatively short overall.",
+    "perks": [
+      {
+        "name": "Additional defense against damage",
+        "info": "Unit always starts with a set amount of SP (Shield Points) on top of their regular health. This perk is shared between Willy and Juggernaut, both of whom are heavyweights.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ExtraHealth.png?49025d",
+        "image": "assets/perks/additional-defense-against-damage.png"
+      },
+      {
+        "name": "Stuns the enemy",
+        "info": "Greatly slows the enemy down. There are two forms of the stun effect; the first is an electrical zap that very briefly stops the target completely, and the second is a freezing effect that heavily restricts movement and attack speeds. Both effects are vital to activating the Ice Breaker \"Ice Breaker (Item Set)\") item set bonus as it gives users a 30% increase to their damage against afflicted enemies. Jailer, Willy, and Rogue utilize the former stun method while Nitrogen and Dr. Norman utilize the latter.",
+        "sourceImage": "http://deadahead.wiki.gg/images/StunAbility.png?13e716",
+        "image": "assets/perks/stuns-the-enemy.png"
+      },
+      {
+        "name": "Knocks the enemy back",
+        "info": "Pushes enemies back some distance. Some units with this perk can only cause knockback with a critical hit while others can cause knockback with every hit. The distance an enemy is knocked back can vary, though most only push enemies a moderately small distance away. Knockback distance can be partially or completely resisted on certain enemies.",
+        "sourceImage": "http://deadahead.wiki.gg/images/Knockback.png?8c7ee8",
+        "image": "assets/perks/knocks-the-enemy-back.png"
+      },
+      {
+        "name": "Ranged resistance",
+        "info": "All damage received from ranged sources (excluding Flamethrower, Willy, and Dr. Norman) is reduced by 90%. Turbo is the only unit with full immunity against ranged damage sources. A level 30 Sniper Polina's special ability can ignore 40% of the bullet resistance percentage, while units with the Tactical item set bonus can ignore 50%. Glasses \"Glasses (Charm)\")/Horseshoe \"Horseshoe (Charm)\") are charms that allow their corresponding units to ignore 2%-5% bullet resistance. All such effects are multiplicative on the final value but compound additively.",
+        "sourceImage": "http://deadahead.wiki.gg/images/ResistanceBullets.png?813fef",
+        "image": "assets/perks/ranged-resistance.png"
+      }
+    ],
+    "source": "https://deadahead.wiki.gg/wiki/Willy"
+  }
+}
